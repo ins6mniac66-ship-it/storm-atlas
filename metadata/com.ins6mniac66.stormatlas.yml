@@ -21,7 +21,7 @@ Builds:
       - npm ci
       - npx expo prebuild --platform android --no-install
     build: cd android && gradle assembleRelease
-    output: app/build/outputs/apk/release/app-release.apk
+    output: android/app/build/outputs/apk/release/app-release.apk
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
