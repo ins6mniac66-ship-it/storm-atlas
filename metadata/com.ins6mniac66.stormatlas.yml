@@ -17,12 +17,10 @@ Builds:
     sudo:
       - apt-get update
       - apt-get install -y npm
-    init:
+    prebuild:
       - npm ci
       - npx expo prebuild --platform android --no-install
-    subdir: android
-    gradle:
-      - yes
+    build: cd android && gradle assembleRelease
     output: app/build/outputs/apk/release/app-release.apk
 
 AutoUpdateMode: Version
