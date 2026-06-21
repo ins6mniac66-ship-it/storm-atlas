@@ -1,16 +1,14 @@
-# Draft fdroiddata metadata for Storm Atlas.
-# Replace TODO_PUBLIC_REPO_URL after the public source repository exists.
 Categories:
   - Games
 License: GPL-3.0-or-later
 AuthorName: ins6mniac66
-SourceCode: TODO_PUBLIC_REPO_URL
-IssueTracker: TODO_PUBLIC_REPO_URL/issues
+SourceCode: https://github.com/ins6mniac66-ship-it/storm-atlas
+IssueTracker: https://github.com/ins6mniac66-ship-it/storm-atlas/issues
 
 AutoName: Storm Atlas
 
 RepoType: git
-Repo: TODO_PUBLIC_REPO_URL
+Repo: https://github.com/ins6mniac66-ship-it/storm-atlas.git
 
 Builds:
   - versionName: 0.1.3

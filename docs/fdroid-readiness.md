@@ -36,7 +36,7 @@ Keep these out of a source release:
 
 ## Main Repository Submission Path
 
-Use official F-Droid inclusion, not a self-hosted repository, unless the release strategy changes. The app should be submitted through a merge request to `fdroiddata` after the public source repo exists and `metadata/com.ins6mniac66.stormatlas.yml` has a real `Repo`, `SourceCode`, and `IssueTracker`.
+Use official F-Droid inclusion, not a self-hosted repository, unless the release strategy changes. The app should be submitted through a merge request to `fdroiddata` after `metadata/com.ins6mniac66.stormatlas.yml` passes fdroidserver checks.
 
 Current local decision: keep generated `android/` out of committed source and have the F-Droid build run `npm ci` plus `npx expo prebuild --platform android --no-install` before Gradle. If that fails under F-Droid buildserver constraints, revise deliberately rather than silently committing generated native output.
 
@@ -54,4 +54,4 @@ Required upstream metadata now lives under `fastlane/metadata/android/en-US/`:
 - No account, backend, ads, analytics, Firebase, Google Mobile Services, or network access are required for the release-facing app.
 - Android permissions are explicitly empty in `app.json`, with internet/camera/scanner/media/audio/overlay permissions blocked.
 - Game art and gameplay data must continue to follow `docs/asset-licensing.md` and `docs/verified-data-policy.md`.
-- `metadata/com.ins6mniac66.stormatlas.yml` is a draft fdroiddata file and will not pass fdroid lint until `TODO_PUBLIC_REPO_URL` is replaced.
+- `metadata/com.ins6mniac66.stormatlas.yml` points at the public source repository and is ready for fdroidserver lint/build testing.

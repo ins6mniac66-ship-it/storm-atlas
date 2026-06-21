@@ -23,7 +23,7 @@ This file defines the intended source boundary for the v0.1.3 / versionCode 6 re
 - `RiskOfRain2_Survivors/survivors.json`
 - `RiskOfRain2_Survivors/**/*.png`
 - `fastlane/metadata/android/en-US/`
-- `metadata/com.ins6mniac66.stormatlas.yml` after replacing the placeholder public repo URL
+- `metadata/com.ins6mniac66.stormatlas.yml`
 
 ## Exclude From Release Source
 
@@ -43,7 +43,7 @@ This file defines the intended source boundary for the v0.1.3 / versionCode 6 re
 - Keep Scanner and screenshot extraction development-only until the extractor recall milestone has measured precision, recall, false positives, false negatives, rejected-cell rate, and acceptance thresholds.
 - Keep Expo SDK 52 for v0.1.3. `npx expo install --check` passes for this SDK line, and Android target SDK 35 is locked through `expo-build-properties`.
 - Defer the Expo 56 / React Native 0.86 migration to a dedicated follow-up. `npm audit` reports remaining build-tool advisories, but npm's available fixes require major framework upgrades and should not be forced into the release patch with `npm audit fix --force`.
-- The draft fdroiddata metadata intentionally uses `TODO_PUBLIC_REPO_URL` until the public Git host is selected and tagged with `v0.1.3`.
+- The draft fdroiddata metadata points at `https://github.com/ins6mniac66-ship-it/storm-atlas`, which is tagged with `v0.1.3`.
 
 ## Pre-Commit Evidence
 

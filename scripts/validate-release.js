@@ -105,7 +105,9 @@ assert(/Android 15 \/ API level 35/.test(googlePlay), 'Google Play draft must me
 const fdroid = read('docs/fdroid-readiness.md');
 assert(/Scanner and extractor workflows are development-only/.test(fdroid), 'F-Droid notes must keep scanner workflows development-only');
 assert(/GPL-3\.0-or-later/.test(fdroid), 'F-Droid notes must record the GPL-3.0-or-later license decision');
-assert(/TODO_PUBLIC_REPO_URL/.test(read('metadata/com.ins6mniac66.stormatlas.yml')), 'F-Droid metadata template must keep an obvious public repo placeholder until publication');
+const fdroidMetadata = read('metadata/com.ins6mniac66.stormatlas.yml');
+assert(!/TODO_PUBLIC_REPO_URL/.test(fdroidMetadata), 'F-Droid metadata must not contain placeholder public repo URLs after publication');
+assert(/https:\/\/github\.com\/ins6mniac66-ship-it\/storm-atlas/.test(fdroidMetadata), 'F-Droid metadata must point at the public Storm Atlas GitHub repo');
 assert(fs.existsSync(path.join(root, 'metadata/com.ins6mniac66.stormatlas.yml')), 'F-Droid metadata filename must match the Storm Atlas application id');
 
 const sourceBoundary = read('docs/release-source-boundary.md');
