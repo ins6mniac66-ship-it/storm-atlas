@@ -35,6 +35,7 @@
     "plugins": [
       "expo-asset",
       "expo-font",
+      "./plugins/with-fdroid-dependencies-info",
       [
         "expo-build-properties",
         {
