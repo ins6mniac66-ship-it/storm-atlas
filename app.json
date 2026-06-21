@@ -4,6 +4,7 @@
     "slug": "storm-atlas",
     "scheme": "stormatlas",
     "version": "0.1.3",
+    "jsEngine": "jsc",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "splash": {
