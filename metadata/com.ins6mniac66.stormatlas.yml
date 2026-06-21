@@ -24,7 +24,8 @@ Builds:
     prebuild:
       - npm ci
       - npx expo prebuild --platform android --no-install
-      - printf '\nhermesEnabled=false\n' >> android/gradle.properties
+      - "{\n  echo hermesEnabled=false\n  echo android.enableDependencyInfoInApks=false\n
+        } >> android/gradle.properties"
     scanignore:
       - android/build.gradle
       - node_modules/expo-modules-autolinking/scripts/android/autolinking_implementation.gradle
