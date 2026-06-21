@@ -16,7 +16,8 @@ Builds:
     commit: 8e9c726e3538e8d61d314d0d935eff03c76ac43a
     sudo:
       - apt-get update
-      - apt-get install -y npm openjdk-17-jdk
+      - apt-get install -y npm
+      - apt-get install -y -t bookworm openjdk-17-jdk-headless
     output: android/app/build/outputs/apk/release/app-release.apk
     prebuild:
       - npm ci
