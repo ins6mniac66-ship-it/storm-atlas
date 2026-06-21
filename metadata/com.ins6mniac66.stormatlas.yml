@@ -15,6 +15,8 @@ Builds:
     versionCode: 6
     commit: 8e9c726e3538e8d61d314d0d935eff03c76ac43a
     sudo:
+      - echo deb http://deb.debian.org/debian bookworm main > /tmp/bookworm.list
+      - mv /tmp/bookworm.list /etc/apt/sources.list.d/bookworm.list
       - apt-get update
       - apt-get install -y npm
       - apt-get install -y -t bookworm openjdk-17-jdk-headless
