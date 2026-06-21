@@ -1,0 +1,15 @@
+{
+  "verified_unique_recipes": 55,
+  "verified_recipes_already_in_app": 55,
+  "verified_recipes_missing_from_app": 0,
+  "unresolved_rows": 112,
+  "recoverable_rows": 106,
+  "manual_review_rows": 6,
+  "reason_counts": {
+    "low-confidence-result": 19,
+    "missing-manifest-icon": 22,
+    "non-recipe-art": 6,
+    "row-grouping": 65
+  }
+}
+

@@ -1,0 +1,35 @@
+import type { ImageSourcePropType } from 'react-native';
+
+declare const require: (path: string) => ImageSourcePropType;
+
+export const equipmentIconSources: Record<string, ImageSourcePropType> = {
+  "blast-shower": require("../../RiskOfRain2_Equipment/blast-shower.png"),
+  "crowdfunder": require("../../RiskOfRain2_Equipment/crowdfunder.png"),
+  "disposable-missile-launcher": require("../../RiskOfRain2_Equipment/disposable-missile-launcher.png"),
+  "eccentric-vase": require("../../RiskOfRain2_Equipment/eccentric-vase.png"),
+  "effigy-of-grief": require("../../RiskOfRain2_Equipment/effigy-of-grief.png"),
+  "executive-card": require("../../RiskOfRain2_Equipment/executive-card.png"),
+  "foreign-fruit": require("../../RiskOfRain2_Equipment/foreign-fruit.png"),
+  "forgive-me-please": require("../../RiskOfRain2_Equipment/forgive-me-please.png"),
+  "fuel-array": require("../../RiskOfRain2_Equipment/fuel-array.png"),
+  "glowing-meteorite": require("../../RiskOfRain2_Equipment/glowing-meteorite.png"),
+  "gnarled-woodsprite": require("../../RiskOfRain2_Equipment/gnarled-woodsprite.png"),
+  "goobo-jr": require("../../RiskOfRain2_Equipment/goobo-jr.png"),
+  "gorags-opus": require("../../RiskOfRain2_Equipment/gorags-opus.png"),
+  "helfire-tincture": require("../../RiskOfRain2_Equipment/helfire-tincture.png"),
+  "jade-elephant": require("../../RiskOfRain2_Equipment/jade-elephant.png"),
+  "milky-chrysalis": require("../../RiskOfRain2_Equipment/milky-chrysalis.png"),
+  "molotov-6-pack": require("../../RiskOfRain2_Equipment/molotov-6-pack.png"),
+  "ocular-hud": require("../../RiskOfRain2_Equipment/ocular-hud.png"),
+  "preon-accumulator": require("../../RiskOfRain2_Equipment/preon-accumulator.png"),
+  "primordial-cube": require("../../RiskOfRain2_Equipment/primordial-cube.png"),
+  "radar-scanner": require("../../RiskOfRain2_Equipment/radar-scanner.png"),
+  "recycler": require("../../RiskOfRain2_Equipment/recycler.png"),
+  "royal-capacitor": require("../../RiskOfRain2_Equipment/royal-capacitor.png"),
+  "sawmerang": require("../../RiskOfRain2_Equipment/sawmerang.png"),
+  "spinel-tonic": require("../../RiskOfRain2_Equipment/spinel-tonic.png"),
+  "super-massive-leech": require("../../RiskOfRain2_Equipment/super-massive-leech.png"),
+  "the-backup": require("../../RiskOfRain2_Equipment/the-backup.png"),
+  "trophy-hunters-tricorn": require("../../RiskOfRain2_Equipment/trophy-hunters-tricorn.png"),
+  "volcanic-egg": require("../../RiskOfRain2_Equipment/volcanic-egg.png"),
+};

@@ -1,0 +1,11 @@
+Storm Atlas is an offline-first companion for Risk of Rain 2 runs. It keeps practical run information close at hand so you can make quicker decisions without leaving the game.
+
+Features:
+
+* Search and filter item data by rarity, category, expansion, and source status
+* Track a build during a run and review saved items
+* Browse equipment, survivors, enemies, maps, shrines, recipes, run systems, proc chains, and glossary entries
+* See expansion labels and conservative source/status treatment for gameplay data
+* Use the app without an account, network service, ads, analytics, or sensitive Android permissions
+
+Scanner and screenshot extraction workflows are development-only in this release and are hidden from production builds.

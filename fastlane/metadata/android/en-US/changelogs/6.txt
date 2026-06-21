@@ -1,0 +1,5 @@
+Storm Atlas 0.1.3
+
+- Adds an Equipment reference for cooldowns, combat roles, expansion labels, and source/status review.
+- Keeps Scanner and screenshot extraction workflows hidden from production builds while validation remains development-only.
+- Updates release validation for app identity, Android package/version metadata, blocked scanner/media/audio/overlay permissions, and source/artifact boundaries.
