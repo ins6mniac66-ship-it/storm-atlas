@@ -13,18 +13,15 @@ Repo: https://github.com/ins6mniac66-ship-it/storm-atlas.git
 Builds:
   - versionName: 0.1.3
     versionCode: 6
-    commit: 4c7d927f33abfc8747c6ff5d89cb8c1be891d229
-    subdir: android/app
+    commit: 6f62fb2b85f90bd33aa6f94555cf505dc79937c2
     sudo:
       - echo deb http://deb.debian.org/debian bookworm main > /tmp/bookworm.list
       - mv /tmp/bookworm.list /etc/apt/sources.list.d/bookworm.list
       - apt-get update
       - apt-get install -y npm
       - apt-get install -y -t bookworm openjdk-17-jdk-headless
-    gradle:
-      - yes
+    output: android/app/build/outputs/apk/release/app-release.apk
     prebuild:
-      - cd ../..
       - npm ci
       - npx expo prebuild --platform android --no-install
     scanignore:
@@ -39,6 +36,9 @@ Builds:
     scandelete:
       - node_modules/react-native/sdks/hermesc
       - node_modules/react-native/React/I18n/strings
+    build:
+      - cd android
+      - gradle assembleRelease
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
