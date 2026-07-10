@@ -1,12 +1,3 @@
-const itemIcons = [
-  "/assets/120_Exposed_Cerebellum.f6d32055238c15775ac7faf365e4236f.png",
-  "/assets/121_Faulty_Conductor.7310e178d53ec396f1c321f9c03b58c9.png",
-  "/assets/135_Shatterspleen.b452230235d209b12d8e0a375aa7a83a.png",
-  "/assets/123_Genesis_Loop.eb17f1594bb0489bd1ec1553e988917c.png",
-  "/assets/115_Artifact_Key.b67b872f0213e983660fd7ff5e8374c4.png",
-  "/assets/122_Functional_Coupler.7facfac6242df6690f63e7dcd6950476.png",
-];
-
 const features = [
   ["01", "Items", "Find effects, stacks, sources, and expansion scope fast."],
   ["02", "Build", "Track the run you have and spot the next useful pickup."],
@@ -32,52 +23,18 @@ function Radar() {
 
 function Phone() {
   return (
-    <div className="phone-wrap" aria-label="Storm Atlas app preview">
-      <div className="phone">
-        <div className="phone-speaker" />
-        <div className="phone-screen">
-          <div className="app-bar">
-            <div className="app-id">
-              <img src="/assets/storm-atlas-icon.png" alt="" width="36" height="36" />
-              <div><b>Storm Atlas</b><span>Offline // Ready</span></div>
-            </div>
-            <span className="signal">● 100%</span>
-          </div>
-
-          <div className="run-head">
-            <div><span>Current run</span><strong>Railgunner</strong></div>
-            <div className="stage"><span>Stage 04</span><b>32:47</b></div>
-          </div>
-
-          <div className="decision">
-            <span>Next priority</span>
-            <strong>Stack crit, then add a safer movement option.</strong>
-            <small>Based on 14 tracked items</small>
-          </div>
-
-          <div className="inventory-title"><b>Build inventory</b><span>14 items</span></div>
-          <div className="item-grid">
-            {itemIcons.map((src, index) => (
-              <div className="item" key={src}>
-                <img src={src} alt="" width="58" height="58" />
-                <span>x{index % 3 + 1}</span>
-              </div>
-            ))}
-          </div>
-
-          <div className="quick-grid">
-            <div><span>Damage</span><b>+48%</b></div>
-            <div><span>Mobility</span><b>Stable</b></div>
-            <div><span>Defense</span><b>Low</b></div>
-          </div>
-
-          <nav className="phone-nav" aria-label="App preview navigation">
-            <b>Items</b><span>Build</span><span>Survivors</span><span>Reference</span>
-          </nav>
-        </div>
-      </div>
-      <div className="phone-note note-top"><span>01</span>Run state</div>
-      <div className="phone-note note-bottom"><span>02</span>Decision support</div>
+    <div className="phone-wrap" aria-label="Real Storm Atlas app screenshots">
+      <figure className="screen-card screen-card-left">
+        <img src="/screenshots/build.png" alt="Storm Atlas build screen" width="390" height="844" />
+      </figure>
+      <figure className="screen-card screen-card-main">
+        <img src="/screenshots/items.png" alt="Storm Atlas item catalog screen" width="390" height="844" />
+      </figure>
+      <figure className="screen-card screen-card-right">
+        <img src="/screenshots/reference.png" alt="Storm Atlas reference screen" width="390" height="844" />
+      </figure>
+      <div className="phone-note note-top"><span>01</span>Actual app UI</div>
+      <div className="phone-note note-bottom"><span>02</span>Offline reference</div>
     </div>
   );
 }
