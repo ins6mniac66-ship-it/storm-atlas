@@ -14,18 +14,18 @@ async function render() {
   );
 }
 
-test("server-renders the Storm Atlas landing page with real app screenshots", async () => {
+test("server-renders the interactive Storm Atlas app clone", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>Storm Atlas \| Your run\. Under control\.<\/title>/i);
-  assert.match(html, /Real Storm Atlas app screenshots/);
-  assert.match(html, /\/screenshots\/items\.png/);
-  assert.match(html, /\/screenshots\/build\.png/);
-  assert.match(html, /\/screenshots\/reference\.png/);
-  assert.doesNotMatch(html, /Current run|Railgunner|Based on 14 tracked items/);
+  assert.match(html, /<title>Storm Atlas \| Offline Run Companion<\/title>/i);
+  assert.match(html, /Offline run companion/);
+  assert.match(html, /Item catalog/);
+  assert.match(html, /Active build/);
+  assert.match(html, /Reference/);
+  assert.doesNotMatch(html, /Explore the toolkit|Capabilities|View project/);
 });
 
 test("ships each release screenshot used by the hero", async () => {

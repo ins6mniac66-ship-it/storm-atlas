@@ -6,8 +6,8 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Storm Atlas | Your run. Under control.",
-  description: "An offline-first Risk of Rain 2 companion for item lookup, build tracking, survivor planning, and fast in-run reference.",
+  title: "Storm Atlas | Offline Run Companion",
+  description: "A web clone of the Storm Atlas offline-first Risk of Rain 2 companion, with item lookup, build tracking, and fast field reference.",
   icons: { icon: "/assets/storm-atlas-icon.png", shortcut: "/assets/storm-atlas-icon.png" },
   openGraph: {
     title: "Storm Atlas",
