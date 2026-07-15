@@ -1,0 +1,40 @@
+export type EquipmentRole = "Burst" | "Healing" | "Utility" | "Mobility" | "Control" | "Economy" | "Risk";
+export type EquipmentRecord = { id: string; name: string; cooldown: string; role: EquipmentRole; scope: "Base Game" | "Survivors of the Void"; effect: string; runUse: string; caution?: string; sourceUrl: string; sourceStatus: "wiki-derived" };
+const wiki = (name: string) => `https://riskofrain2.wiki.gg/wiki/${name.replace(/ /g, "_").replace(/'/g, "%27")}`;
+export const equipment: EquipmentRecord[] = [
+  ["disposable-missile-launcher","Disposable Missile Launcher","45s","Burst","Base Game","Fire 12 missiles for repeated 300% damage hits.","Reliable boss and elite burst, especially with missile or cooldown support."],
+  ["foreign-fruit","Foreign Fruit","45s","Healing","Base Game","Instantly heal for 50% of maximum health.","Simple panic heal when the build lacks sustain or safer defensive tools."],
+  ["primordial-cube","Primordial Cube","60s","Control","Base Game","Launch a black hole that pulls enemies together.","Group enemies before area damage, proc chains, bands, or teleporter burst windows."],
+  ["ocular-hud","Ocular HUD","60s","Burst","Base Game","Gain guaranteed critical strikes for a short window.","Best when the build has strong single-target damage, bleed, or crit scaling."],
+  ["preon-accumulator","Preon Accumulator","140s","Burst","Base Game","Fire a high-damage preon tendril projectile with a large explosion.","Stage-one boss deletion route when you can land the shot.","Long cooldown and travel time make missed shots expensive."],
+  ["milky-chrysalis","Milky Chrysalis","60s","Mobility","Base Game","Gain temporary flight and movement speed.","Strong vertical routing, pillar skips, and emergency repositioning."],
+  ["royal-capacitor","Royal Capacitor","20s","Burst","Base Game","Call lightning on a target for heavy damage and nearby stun.","Fast boss and elite burst that rewards a clean target window."],
+  ["blast-shower","Blast Shower","20s","Utility","Base Game","Cleanse negative effects and nearby projectiles.","Removes dangerous debuffs and can support burst timing."],
+  ["jade-elephant","Jade Elephant","45s","Utility","Base Game","Gain a large temporary armor boost.","Safe teleporter holds, Mithrix damage windows, and high-pressure packs."],
+  ["recycler","Recycler","45s","Economy","Base Game","Reroll an item or equipment into another option of the same tier.","One of the strongest macro tools for fixing bad drops before committing.","Reroll only when you have a clear replacement plan."],
+  ["trophy-hunters-tricorn","Trophy Hunter's Tricorn","One use","Economy","Survivors of the Void","Execute a boss and convert its reward into the corresponding boss item.","Target a desired boss drop instead of leaving the reward to chance.","Consumed after use."],
+  ["spinel-tonic","Spinel Tonic","60s","Risk","Base Game","Gain a large temporary stat boost with a chance to receive Tonic Affliction.","Strong tempo equipment when cooldown support can sustain safe uptime.","Afflictions permanently reduce stats unless uptime is managed."]
+].map(([id, name, cooldown, role, scope, effect, runUse, caution]) => ({ id, name, cooldown, role: role as EquipmentRole, scope: scope as EquipmentRecord["scope"], effect, runUse, caution, sourceUrl: wiki(name), sourceStatus: "wiki-derived" }));
+
+export type SurvivorGuide = { id: string; name: string; focus: string; summary: string; priorities: string[]; pivot: string; sourceStatus: "community-tested" };
+export const survivorGuides: SurvivorGuide[] = [
+  { id: "commando", name: "Commando", focus: "Proc runner", summary: "Keep constant mid-range fire while moving; frequent hits turn crit and proc items into reliable scaling.", priorities: ["Attack speed and crit first", "Movement before greed", "Proc/crowd clear for teleporter packs"], pivot: "If elites live too long, add missile or boss damage; if you die, add movement or recovery.", sourceStatus: "community-tested" },
+  { id: "huntress", name: "Huntress", focus: "Mobile on-hit", summary: "Use movement to maintain safe damage uptime; favor items that reward repeated hits and target swaps.", priorities: ["On-hit and crit", "Mobility and safe recovery", "Burst for bosses after safety"], pivot: "When pressure closes in, prioritize repositioning and crowd clear over another narrow damage pickup.", sourceStatus: "community-tested" },
+  { id: "bandit", name: "Bandit", focus: "Burst execution", summary: "Build clean burst windows and preserve safe finishing hits rather than relying on delayed damage around executions.", priorities: ["Burst and crit", "Movement for angles", "Controlled crowd clear"], pivot: "Avoid automatic damage near intended execute targets; take defense if long fights expose you.", sourceStatus: "community-tested" },
+  { id: "mul-t", name: "MUL-T", focus: "Sustained proc", summary: "Repeated fire makes on-hit, attack speed, and proc items a steady foundation.", priorities: ["Hit rate and proc items", "Mobility patch", "Defense for long holds"], pivot: "If routing feels slow, movement is a better fix than more raw damage.", sourceStatus: "community-tested" },
+  { id: "engineer", name: "Engineer", focus: "Turret holdout", summary: "Turrets reward attack speed, bleed, on-hit damage, and controlled holdout recovery.", priorities: ["Turret-compatible proc damage", "Healing/defense for positions", "Area damage for teleporter pressure"], pivot: "Prioritize a survivable turret position before chasing extra boss damage.", sourceStatus: "community-tested" },
+  { id: "artificer", name: "Artificer", focus: "Burst control", summary: "Use burst windows and control to avoid being trapped between skills; items should make misses and downtime safer.", priorities: ["Mobility and defense", "Burst payoff", "Cooldown support after safety"], pivot: "If burst windows miss, take recovery or movement before adding more damage.", sourceStatus: "community-tested" },
+  { id: "loader", name: "Loader", focus: "Impact burst", summary: "Convert committed melee impacts into safe target removal, then use movement to avoid being trapped after contact.", priorities: ["Single-target burst", "Movement and mitigation", "Area/kill-chain for packs"], pivot: "When packs overwhelm you, add clear or movement instead of forcing another melee commitment.", sourceStatus: "community-tested" }
+];
+
+export type ChefRecipe = { id: string; result: string; category: string; ingredients: [string, string]; ingredientNames: [string, string]; notes?: string };
+export const chefRecipes: ChefRecipe[] = [
+  { id: "predatory-instincts", result: "Predatory Instincts", category: "Uncommon", ingredients: ["Syringe", "CritGlasses"], ingredientNames: ["Soldier's Syringe", "Lens-Maker's Glasses"] },
+  { id: "ultimate-meal", result: "Ultimate Meal", category: "Meal", ingredients: ["Clover", "Clover"], ingredientNames: ["57 Leaf Clover", "57 Leaf Clover"] },
+  { id: "breaching-fin", result: "Breaching Fin", category: "Uncommon", ingredients: ["Hoof", "StunGrenade"], ingredientNames: ["Paul's Goat Hoof", "Stun Grenade"] },
+  { id: "red-whip", result: "Red Whip", category: "Uncommon", ingredients: ["HealWhileSafe", "EnergyDrink"], ingredientNames: ["Cautious Slug", "Energy Drink"] },
+  { id: "disposable-missile-launcher", result: "Disposable Missile Launcher", category: "Equipment", ingredients: ["FuelCell", "Missile"], ingredientNames: ["Fuel Cell", "AtG Missile Mk. 1"] },
+  { id: "charged-perforator", result: "Charged Perforator", category: "Boss", ingredients: ["Missile", "RoyalCapacitor"], ingredientNames: ["AtG Missile Mk. 1", "Royal Capacitor"] },
+  { id: "pocket-icbm", result: "Pocket I.C.B.M.", category: "Legendary", ingredients: ["Missile", "DisposableMissileLauncher"], ingredientNames: ["AtG Missile Mk. 1", "Disposable Missile Launcher"] },
+  { id: "shatterspleen", result: "Shatterspleen", category: "Boss", ingredients: ["WillOWisp", "NoxiousThorn"], ingredientNames: ["Will-o'-the-wisp", "Noxious Thorn"] }
+];

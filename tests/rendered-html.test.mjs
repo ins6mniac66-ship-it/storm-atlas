@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
 async function render() {
@@ -26,6 +26,14 @@ test("server-renders the interactive Storm Atlas app clone", async () => {
   assert.match(html, /Active build/);
   assert.match(html, /Reference/);
   assert.doesNotMatch(html, /Explore the toolkit|Capabilities|View project/);
+});
+
+test("ships equipment, survivor, and build-aware Chef reference content", async () => {
+  const source = await readFile(new URL("../src/data/referenceContent.ts", import.meta.url), "utf8");
+  assert.match(source, /wiki-derived/);
+  assert.match(source, /survivorGuides/);
+  assert.match(source, /chefRecipes/);
+  assert.match(source, /Predatory Instincts/);
 });
 
 test("ships each release screenshot used by the hero", async () => {
