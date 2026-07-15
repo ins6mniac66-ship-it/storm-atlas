@@ -35,3 +35,11 @@ test("ships each release screenshot used by the hero", async () => {
     access(new URL("../public/screenshots/reference.png", import.meta.url)),
   ]);
 });
+
+test("ships the offline app shell and content source", async () => {
+  await Promise.all([
+    access(new URL("../public/manifest.webmanifest", import.meta.url)),
+    access(new URL("../public/sw.js", import.meta.url)),
+    access(new URL("../src/data/items.json", import.meta.url)),
+  ]);
+});

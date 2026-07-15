@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   title: "Storm Atlas | Offline Run Companion",
   description: "A web clone of the Storm Atlas offline-first Risk of Rain 2 companion, with item lookup, build tracking, and fast field reference.",
   icons: { icon: "/assets/storm-atlas-icon.png", shortcut: "/assets/storm-atlas-icon.png" },
+  manifest: "/manifest.webmanifest",
+  themeColor: "#080c11",
   openGraph: {
     title: "Storm Atlas",
     description: "Your run. Under control.",
