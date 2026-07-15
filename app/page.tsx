@@ -19,7 +19,9 @@ export default function Home() {
     const captureInstall = (event: Event) => { event.preventDefault(); setInstallPrompt(event as Event & { prompt: () => Promise<void>; userChoice: Promise<unknown> }); };
     addEventListener("online", update); addEventListener("offline", update);
     addEventListener("beforeinstallprompt", captureInstall);
-    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(() => undefined);
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register(`/sw.js?v=${contentVersion}`, { updateViaCache: "none" }).then((registration) => registration.update()).catch(() => undefined);
+    }
     return () => { removeEventListener("online", update); removeEventListener("offline", update); removeEventListener("beforeinstallprompt", captureInstall); };
   }, []);
   useEffect(() => { if (hydrated) saveRunState(run); }, [run, hydrated]);
