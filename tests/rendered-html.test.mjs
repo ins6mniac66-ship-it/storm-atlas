@@ -36,6 +36,15 @@ test("ships equipment, survivor, and build-aware Chef reference content", async 
   assert.match(source, /Predatory Instincts/);
 });
 
+test("ships the in-run Build decision flow", async () => {
+  const source = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
+  assert.match(source, /RUN READINESS/);
+  assert.match(source, /TAKE NEXT/);
+  assert.match(source, /WATCH FOR/);
+  assert.match(source, /checklistItemIds: next\.checklistItemIds\.filter/);
+  assert.match(source, /setSurvivor/);
+});
+
 test("ships each release screenshot used by the hero", async () => {
   await Promise.all([
     access(new URL("../public/screenshots/items.png", import.meta.url)),
