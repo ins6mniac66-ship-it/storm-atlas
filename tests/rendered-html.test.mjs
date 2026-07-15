@@ -43,6 +43,8 @@ test("ships the in-run Build decision flow", async () => {
   assert.match(source, /WATCH FOR/);
   assert.match(source, /checklistItemIds: next\.checklistItemIds\.filter/);
   assert.match(source, /setSurvivor/);
+  assert.match(source, /isCuratedPickup/);
+  assert.match(source, /\["Common", "Uncommon", "Legendary"\]/);
 });
 
 test("ships each release screenshot used by the hero", async () => {
