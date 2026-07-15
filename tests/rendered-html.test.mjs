@@ -60,3 +60,9 @@ test("ships the offline app shell and content source", async () => {
     access(new URL("../src/data/items.json", import.meta.url)),
   ]);
 });
+
+test("ships the reconciled full item manifest with explicit expansion scopes", async () => {
+  const catalog = JSON.parse(await readFile(new URL("../src/data/items.json", import.meta.url), "utf8"));
+  assert.equal(catalog.items.length, 170);
+  assert.deepEqual(new Set(catalog.items.map((item) => item.scope)), new Set(["Base Game", "Survivors of the Void", "Seekers of the Storm", "Alloyed Collective"]));
+});

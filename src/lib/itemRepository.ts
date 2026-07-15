@@ -1,7 +1,7 @@
 import catalog from "@/src/data/items.json";
 
 export type Rarity = "Common" | "Uncommon" | "Legendary" | "Boss" | "Lunar" | "Void";
-export type ContentScope = "Base Game" | "Survivors of the Void";
+export type ContentScope = "Base Game" | "Survivors of the Void" | "Seekers of the Storm" | "Alloyed Collective";
 export type SourceStatus = "verified" | "wiki-derived" | "needs-review";
 export type Priority = "core" | "useful" | "skip" | "scrap";
 export type ItemRecord = { id: string; name: string; rarity: Rarity; scope: ContentScope; categories: string[]; aliases: string[]; effect: string; iconPath: string; sourceUrl: string; sourceStatus: SourceStatus; priority: Priority; priorityReason: string; stackFormula?: string };
