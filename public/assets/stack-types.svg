@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="stack-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter>
+    <filter id="spark-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.5" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter>
+  </defs>
+  <path d="M 14 38 C 18 16, 42 8, 50 8" fill="none" stroke="#9A4CFF" stroke-width="1.5" filter="url(#stack-glow)"/>
+  <path d="M 32 26 Q 40 12, 50 8" fill="none" stroke="#9A4CFF" stroke-width="1.5" filter="url(#stack-glow)"/>
+  <rect x="44" y="14" width="12" height="44" rx="6" fill="#1C1030" stroke="#9A4CFF" stroke-width="2"/><circle cx="50" cy="21" r="2" fill="#E2B5FF" filter="url(#spark-glow)"/>
+  <rect x="26" y="26" width="12" height="32" rx="6" fill="#1C1030" stroke="#9A4CFF" stroke-width="2"/><circle cx="32" cy="33" r="2" fill="#E2B5FF" filter="url(#spark-glow)"/>
+  <rect x="8" y="38" width="12" height="20" rx="6" fill="#1C1030" stroke="#9A4CFF" stroke-width="2"/><circle cx="14" cy="45" r="2" fill="#E2B5FF" filter="url(#spark-glow)"/>
+  <path d="M 6 48 C 24 46, 38 34, 54 12" fill="none" stroke="#4CE0D2" stroke-width="1.5" stroke-linecap="round" filter="url(#stack-glow)"/>
+  <path d="M 50 14 L 50 6 M 46.5 9.5 L 50 6 L 53.5 9.5" fill="none" stroke="#E2B5FF" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#spark-glow)"/>
+</svg>

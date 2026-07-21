@@ -47,6 +47,11 @@ test("ships the in-run Build decision flow", async () => {
   assert.match(source, /\["Common", "Uncommon", "Legendary"\]/);
 });
 
+test("shows catalog status chips only for items that need a provenance warning", async () => {
+  const source = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
+  assert.match(source, /item\.sourceStatus !== "verified"/);
+});
+
 test("ships each release screenshot used by the hero", async () => {
   await Promise.all([
     access(new URL("../public/screenshots/items.png", import.meta.url)),

@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Storm Atlas",
     description: "Your run. Under control.",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Storm Atlas tactical companion interface" }],
+    images: [{ url: "/og-app-views.png", width: 1200, height: 630, alt: "Storm Atlas Items, Build, and Reference screens" }],
   },
-  twitter: { card: "summary_large_image", title: "Storm Atlas", description: "Your run. Under control.", images: ["/og.png"] },
+  twitter: { card: "summary_large_image", title: "Storm Atlas", description: "Your run. Under control.", images: ["/og-app-views.png"] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
