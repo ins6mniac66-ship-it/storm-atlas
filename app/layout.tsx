@@ -8,7 +8,11 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: "Storm Atlas | Offline Run Companion",
   description: "A web clone of the Storm Atlas offline-first Risk of Rain 2 companion, with item lookup, build tracking, and fast field reference.",
-  icons: { icon: "/assets/storm-atlas-icon.png", shortcut: "/assets/storm-atlas-icon.png" },
+  icons: {
+    icon: [{ url: "/assets/storm-atlas-site-icon.png", type: "image/png", sizes: "1024x1024" }],
+    shortcut: "/assets/storm-atlas-site-icon.png",
+    apple: "/assets/storm-atlas-site-icon.png",
+  },
   manifest: "/manifest.webmanifest",
   themeColor: "#080c11",
   openGraph: {
