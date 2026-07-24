@@ -31,6 +31,8 @@ test("server-renders the interactive Storm Atlas app clone", async () => {
 test("ships equipment, survivor, and build-aware Chef reference content", async () => {
   const source = await readFile(new URL("../src/data/referenceContent.ts", import.meta.url), "utf8");
   assert.match(source, /wiki-derived/);
+  assert.equal((source.match(/"Base Game"/g) ?? []).length, 25);
+  assert.doesNotMatch(source, /Survivors of the Void/);
   assert.match(source, /survivorGuides/);
   assert.match(source, /chefRecipes/);
   assert.match(source, /Predatory Instincts/);
