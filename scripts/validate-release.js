@@ -69,7 +69,7 @@ for (const permission of [
 }
 
 const releaseConfig = read('src/config/release.ts');
-assert(/enableScanner:\s*__DEV__/.test(releaseConfig), 'Scanner must stay development-only via __DEV__');
+assert(/enableScanner:\s*__DEV__\s*&&\s*Platform\.OS\s*!==\s*'web'/.test(releaseConfig), 'Scanner must stay native-development-only and hidden in web previews');
 assert(/betaSignupUrl:\s*''/.test(releaseConfig), 'Beta signup URL must remain empty until a real destination exists');
 
 const bottomTabs = read('src/components/BottomTabs.tsx');
