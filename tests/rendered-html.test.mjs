@@ -36,6 +36,7 @@ test("ships equipment, survivor, and build-aware Chef reference content", async 
   assert.match(source, /survivorGuides/);
   assert.match(source, /chefRecipes/);
   assert.match(source, /Predatory Instincts/);
+  assert.match(source, /iconPath: `\/assets\/equipment\/\$\{id\}\.png`/);
 });
 
 test("ships the in-run Build decision flow", async () => {

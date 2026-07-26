@@ -1,5 +1,5 @@
 export type EquipmentRole = "Burst" | "Healing" | "Utility" | "Mobility" | "Control" | "Economy" | "Risk";
-export type EquipmentRecord = { id: string; name: string; cooldown: string; role: EquipmentRole; scope: "Base Game"; effect: string; runUse: string; caution?: string; sourceUrl: string; sourceStatus: "wiki-derived" };
+export type EquipmentRecord = { id: string; name: string; cooldown: string; role: EquipmentRole; scope: "Base Game"; effect: string; runUse: string; caution?: string; iconPath: string; sourceUrl: string; sourceStatus: "wiki-derived" };
 const wiki = (name: string) => `https://riskofrain2.wiki.gg/wiki/${name.replace(/ /g, "_").replace(/'/g, "%27")}`;
 export const equipment: EquipmentRecord[] = [
   ["disposable-missile-launcher","Disposable Missile Launcher","45s","Burst","Base Game","Fire 12 missiles for repeated 300% damage hits.","Reliable boss and elite burst, especially with missile or cooldown support."],
@@ -26,7 +26,7 @@ export const equipment: EquipmentRecord[] = [
   ["glowing-meteorite","Glowing Meteorite","140s","Risk","Base Game","Call down meteors across the stage.","High-risk damage when you can survive or avoid the meteor storm.","Can hit players and allies."],
   ["helfire-tincture","Helfire Tincture","45s","Risk","Base Game","Ignite everything nearby, including yourself.","Build-around damage aura when you have healing, Razorwire-style payoffs, or strong mitigation.","Self-damage can kill underbuilt runs quickly."],
   ["spinel-tonic","Spinel Tonic","60s","Risk","Base Game","Gain a large temporary stat boost with a chance to receive Tonic Affliction afterward.","Powerful tempo equipment when you have enough cooldown reduction to keep uptime high.","Afflictions permanently reduce stats unless you manage uptime."]
-].map(([id, name, cooldown, role, scope, effect, runUse, caution]) => ({ id, name, cooldown, role: role as EquipmentRole, scope: scope as EquipmentRecord["scope"], effect, runUse, caution, sourceUrl: wiki(name), sourceStatus: "wiki-derived" }));
+].map(([id, name, cooldown, role, scope, effect, runUse, caution]) => ({ id, name, cooldown, role: role as EquipmentRole, scope: scope as EquipmentRecord["scope"], effect, runUse, caution, iconPath: `/assets/equipment/${id}.png`, sourceUrl: wiki(name), sourceStatus: "wiki-derived" }));
 
 export type SurvivorGuide = { id: string; name: string; focus: string; summary: string; priorities: string[]; pivot: string; preferredCategories: string[]; sourceStatus: "community-tested" };
 export const survivorGuides: SurvivorGuide[] = [
