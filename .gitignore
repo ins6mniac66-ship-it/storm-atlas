@@ -40,3 +40,7 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# local browser state and manual mobile QA captures
+/.playwright-mcp/
+/qa-*-mobile.png
