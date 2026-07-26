@@ -21,6 +21,7 @@ deliverables/
 .playwright-mcp/
 docs/extractor-debug-archive/
 archive-*/
+/tests/__pycache__/
 /.vinext/
 /.wrangler/
 /outputs/
