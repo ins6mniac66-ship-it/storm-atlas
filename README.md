@@ -2,6 +2,14 @@
 
 Expo React Native + TypeScript offline-first companion app for Risk of Rain 2.
 
+This repository contains two independent Storm Atlas clients:
+
+- `./` — the Expo React Native Android app.
+- `./web` — the offline-first Cloudflare PWA, built with React and Vinext.
+
+Each app has its own `package.json`, dependencies, test commands, and deployment
+configuration. Run commands from the app directory you intend to work on.
+
 Current release target: `0.1.3` / Android `versionCode` 6.
 
 License: GPL-3.0-or-later.
@@ -39,3 +47,18 @@ For F-Droid review notes, source boundaries, and the fdroiddata metadata templat
 - `npm run typecheck`
 
 `npm test` validates the current catalog and fallback-safe asset state. In this checkout, item and enemy art is manifest-only unless corresponding PNGs are added and wired through `src/data/iconSources.ts`.
+
+## PWA (`web/`)
+
+The PWA is a separate Cloudflare deployment. Its source and history live in
+`web/`, so native-app commands must not be run there.
+
+```sh
+cd web
+npm ci
+npm run validate:catalog
+npm run lint
+npm test
+```
+
+See [`web/README.md`](web/README.md) for PWA development details.

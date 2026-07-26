@@ -21,3 +21,7 @@ deliverables/
 .playwright-mcp/
 docs/extractor-debug-archive/
 archive-*/
+/.vinext/
+/.wrangler/
+/outputs/
+/qa-*-mobile.png
