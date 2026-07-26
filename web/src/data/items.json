@@ -1,0 +1,3847 @@
+{
+  "version": "2026.07-full.1",
+  "items": [
+    {
+      "id": "ArtifactKey",
+      "name": "Artifact Key",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "WorldUnique",
+        "ObjectiveRelated"
+      ],
+      "aliases": [
+        "artifact",
+        "key"
+      ],
+      "effect": "A stone shard with immense power.",
+      "iconPath": "/assets/catalog/artifactkey.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Artifact_Key.png?acc01b",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LightningStrikeOnHit",
+      "name": "Charged Perforator",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "charged",
+        "perforator",
+        "lightning",
+        "strike",
+        "on",
+        "hit"
+      ],
+      "effect": "10% chance on hit to down a lightning strike, dealing 500% (+500% per stack) damage.",
+      "iconPath": "/assets/catalog/lightningstrikeonhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Charged_Perforator.png?44d7fb",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MinorConstructOnKill",
+      "name": "Defense Nucleus",
+      "rarity": "Boss",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "defense",
+        "nucleus",
+        "minor",
+        "construct",
+        "on",
+        "kill"
+      ],
+      "effect": "Killing elite monsters spawns an Alpha Construct with bonus 300% damage and 300% health. Limited to 4 (+4 per stack).",
+      "iconPath": "/assets/catalog/minorconstructonkill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Defense_Nucleus.png?cde23c",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "RoboBallBuddy",
+      "name": "Empathy Cores",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TurretBlacklist",
+        "ExtractorUnitBlacklist"
+      ],
+      "aliases": [
+        "empathy",
+        "cores",
+        "robo",
+        "ball",
+        "buddy"
+      ],
+      "effect": "Every 30 seconds, summon two Solus Probes that gain +100% (+100% per stack) damage per ally on your team.",
+      "iconPath": "/assets/catalog/roboballbuddy.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Empathy_Cores.png?7094cb",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MasterBattery",
+      "name": "Encrypted Cerebellum",
+      "rarity": "Boss",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "CannotSteal",
+        "WorldUnique",
+        "TurretBlacklist",
+        "ObjectiveRelated",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "encrypted",
+        "cerebellum",
+        "master",
+        "battery"
+      ],
+      "effect": "Contains encrypted remnants of the Collective network. Needs to be decrypted before it can be returned.",
+      "iconPath": "/assets/catalog/masterbattery.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Encrypted_Cerebellum.png?3ef3d3",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MasterCore",
+      "name": "Exposed Cerebellum",
+      "rarity": "Boss",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "CannotSteal",
+        "WorldUnique",
+        "TurretBlacklist",
+        "ObjectiveRelated",
+        "RebirthBlacklist",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "exposed",
+        "cerebellum",
+        "master",
+        "core"
+      ],
+      "effect": "A swarming data nexus representing the Collective network. Can be given to a powerful entity.",
+      "iconPath": "/assets/catalog/mastercore.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Exposed_Cerebellum.png?43b5bf",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ShockDamageAura",
+      "name": "Faulty Conductor",
+      "rarity": "Boss",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Damage",
+        "Utility"
+      ],
+      "aliases": [
+        "faulty",
+        "conductor",
+        "shock",
+        "damage",
+        "aura"
+      ],
+      "effect": "Every 15 (-20% per stack) seconds, release a wave of electricity that energizes nearby allies for 7 seconds. Energized allies gain +30% attack and movement speed, and ALWAYS land critical strikes with electric items and attacks.",
+      "iconPath": "/assets/catalog/shockdamageaura.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Faulty_Conductor.png?1c3848",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ExtraEquipment",
+      "name": "Functional Coupler",
+      "rarity": "Boss",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "EquipmentRelated"
+      ],
+      "aliases": [
+        "functional",
+        "coupler",
+        "extra",
+        "equipment"
+      ],
+      "effect": "Hold 1 additional equipment (+1 per stack). Press the interact and equipment buttons to cycle through held equipment.",
+      "iconPath": "/assets/catalog/extraequipment.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Functional_Coupler.png?8740d8",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "NovaOnLowHealth",
+      "name": "Genesis Loop",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "LowHealth"
+      ],
+      "aliases": [
+        "genesis",
+        "loop",
+        "nova",
+        "on",
+        "low",
+        "health"
+      ],
+      "effect": "Falling below 25% health causes you to explode, dealing 6000% base damage. Recharges every {{Color|u|30 / (2 {{Stack|+1 per stack}}) seconds}}.",
+      "iconPath": "/assets/catalog/novaonlowhealth.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Genesis_Loop.png?e196fa",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "TitanGoldDuringTP",
+      "name": "Halcyon Seed",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "WorldUnique",
+        "CannotSteal",
+        "TurretBlacklist",
+        "HoldoutZoneRelated",
+        "SimulacrumBlacklist"
+      ],
+      "aliases": [
+        "halcyon",
+        "seed",
+        "titan",
+        "gold",
+        "during",
+        "tp"
+      ],
+      "effect": "Summon Aurelionite during the teleporter event. It has 100% (+50% per stack) damage and 100% (+100% per stack) health.",
+      "iconPath": "/assets/catalog/titangoldduringtp.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Halcyon_Seed.png?bd3788",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ShinyPearl",
+      "name": "Irradiant Pearl",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "Healing",
+        "Utility",
+        "WorldUnique",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "irradiant",
+        "pearl",
+        "shiny"
+      ],
+      "effect": "Increases ALL stats by 10% (+10% per stack).",
+      "iconPath": "/assets/catalog/shinypearl.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Irradiant_Pearl.png?89287a",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ScrapYellow",
+      "name": "Item Scrap, Yellow",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "WorldUnique",
+        "Scrap",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "item",
+        "scrap",
+        "yellow"
+      ],
+      "effect": "Does nothing. Prioritized when used with 3D Printers.",
+      "iconPath": "/assets/catalog/scrapyellow.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Item_Scrap%2C_Yellow.png?685aec",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SprintWisp",
+      "name": "Little Disciple",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "SprintRelated",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "little",
+        "disciple",
+        "sprint",
+        "wisp"
+      ],
+      "effect": "Fire a tracking wisp for 300% (+300% per stack) damage. Fires every 1.6 seconds while sprinting. Fire rate increases with movement speed.",
+      "iconPath": "/assets/catalog/sprintwisp.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Little_Disciple.png?bede28",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SiphonOnLowHealth",
+      "name": "Mired Urn",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Healing",
+        "BrotherBlacklist"
+      ],
+      "aliases": [
+        "mired",
+        "urn",
+        "siphon",
+        "on",
+        "low",
+        "health"
+      ],
+      "effect": "While in combat, the nearest 1 (+1 per stack) enemies to you within 13m will be 'tethered' to you, dealing 100% damage per second, applying tar, and healing you for 100% of the damage dealt.",
+      "iconPath": "/assets/catalog/siphononlowhealth.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Mired_Urn.png?38efd6",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "FireballsOnHit",
+      "name": "Molten Perforator",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "molten",
+        "perforator",
+        "fireballs",
+        "on",
+        "hit"
+      ],
+      "effect": "10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage each.",
+      "iconPath": "/assets/catalog/fireballsonhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Molten_Perforator.png?3ab4b6",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Pearl",
+      "name": "Pearl",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "WorldUnique"
+      ],
+      "aliases": [
+        "pearl"
+      ],
+      "effect": "Increases maximum health by 10% (+10% per stack).",
+      "iconPath": "/assets/catalog/pearl.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Pearl.png?eee07d",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ParentEgg",
+      "name": "Planula",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "planula",
+        "parent",
+        "egg"
+      ],
+      "effect": "Heal from incoming damage for {{Color|h|15{{Stack| (+15 per stack)}}}}.",
+      "iconPath": "/assets/catalog/parentegg.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Planula.png?2e2e42",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "PowerCube",
+      "name": "Prison Matrix",
+      "rarity": "Boss",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "WorldUnique",
+        "TurretBlacklist",
+        "ObjectiveRelated",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "prison",
+        "matrix",
+        "power",
+        "cube"
+      ],
+      "effect": "Gain +50% armor. Can be placed in a Matrix Terminal.",
+      "iconPath": "/assets/catalog/powercube.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Prison_Matrix.png?e2a09f",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BeetleGland",
+      "name": "Queen's Gland",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TurretBlacklist",
+        "ExtractorUnitBlacklist"
+      ],
+      "aliases": [
+        "queen",
+        "s",
+        "gland",
+        "beetle"
+      ],
+      "effect": "Every 30 seconds, summon a Beetle Guard with bonus 300% damage and 100% health. Can have up to 1 (+1 per stack) Guards at a time.",
+      "iconPath": "/assets/catalog/beetlegland.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Queen%27s_Gland.png?70a362",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "PowerPyramid",
+      "name": "Sentry Key",
+      "rarity": "Boss",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "ExtractorUnitBlacklist",
+        "WorldUnique",
+        "TurretBlacklist",
+        "ObjectiveRelated"
+      ],
+      "aliases": [
+        "sentry",
+        "key",
+        "power",
+        "pyramid"
+      ],
+      "effect": "Gain +15% move speed. Can be placed in a Sentry Terminal or used for decryption.",
+      "iconPath": "/assets/catalog/powerpyramid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Sentry_Key.png?5c7f3e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BleedOnHitAndExplode",
+      "name": "Shatterspleen",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "shatter",
+        "bleed",
+        "explosion"
+      ],
+      "effect": "Gain 5% critical chance. Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.",
+      "iconPath": "/assets/catalog/bleedonhitandexplode.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Shatterspleen.png?64370e",
+      "sourceStatus": "verified",
+      "priority": "core",
+      "priorityReason": "A premium crit payoff that adds both single-target pressure and clear."
+    },
+    {
+      "id": "Knurl",
+      "name": "Titanic Knurl",
+      "rarity": "Boss",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "Healing"
+      ],
+      "aliases": [
+        "titanic",
+        "knurl"
+      ],
+      "effect": "Increase maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s (+1.6 hp/s per stack).",
+      "iconPath": "/assets/catalog/knurl.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Titanic_Knurl.png?926a27",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BossDamageBonus",
+      "name": "Armor-Piercing Rounds",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "armor",
+        "piercing",
+        "rounds",
+        "boss",
+        "damage",
+        "bonus"
+      ],
+      "effect": "Deal an additional 20% damage (+20% per stack) to bosses.",
+      "iconPath": "/assets/catalog/bossdamagebonus.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Armor-Piercing_Rounds.png?497a50",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SecondarySkillMagazine",
+      "name": "Backup Magazine",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "backup",
+        "magazine",
+        "secondary",
+        "skill"
+      ],
+      "effect": "Add +1 (+1 per stack) charge of your Secondary skill.",
+      "iconPath": "/assets/catalog/secondaryskillmagazine.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Backup_Magazine.png?e9c43e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "FlatHealth",
+      "name": "Bison Steak",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "bison",
+        "steak",
+        "flat",
+        "health"
+      ],
+      "effect": "Increases maximum health by 25 (+25 per stack).",
+      "iconPath": "/assets/catalog/flathealth.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Bison_Steak.png?7a0e2a",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "AttackSpeedPerNearbyAllyOrEnemy",
+      "name": "Bolstering Lantern",
+      "rarity": "Common",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Damage",
+        "Utility"
+      ],
+      "aliases": [
+        "bolstering",
+        "lantern",
+        "attack",
+        "speed",
+        "per",
+        "nearby",
+        "ally",
+        "or",
+        "enemy"
+      ],
+      "effect": "Increase your attack speed by 10% (+3.5% per stack) for up to 3 (+1 per stack) enemies and allies within 20 meters.",
+      "iconPath": "/assets/catalog/attackspeedpernearbyallyorenemy.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Bolstering_Lantern.png?d82bc6",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Firework",
+      "name": "Bundle of Fireworks",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "InteractableRelated"
+      ],
+      "aliases": [
+        "bundle",
+        "of",
+        "fireworks",
+        "firework"
+      ],
+      "effect": "Activating an interactable launches 8 (+4 per stack) fireworks that deal 300% base damage.",
+      "iconPath": "/assets/catalog/firework.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Bundle_of_Fireworks.png?324fd1",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Mushroom",
+      "name": "Bustling Fungus",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "bustling",
+        "fungus",
+        "mushroom"
+      ],
+      "effect": "After standing still for 1 second, create a zone that heals for 4.5% (+2.25% per stack) of your health every second to all allies within 3m (+1.5m per stack).",
+      "iconPath": "/assets/catalog/mushroom.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Bustling_Fungus.png?d1f2d5",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "HealWhileSafe",
+      "name": "Cautious Slug",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "slug",
+        "heal",
+        "regen"
+      ],
+      "effect": "Increases base health regeneration by +3 hp/s (+3 hp/s per stack) while outside of combat.",
+      "iconPath": "/assets/catalog/healwhilesafe.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Cautious_Slug.png?aeca0e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Useful recovery between fights; not a substitute for combat survival.",
+      "stackFormula": "Out-of-combat regen: +3 hp/s × stacks."
+    },
+    {
+      "id": "IncreaseDamageOnMultiKill",
+      "name": "Chronic Expansion",
+      "rarity": "Common",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Damage",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "chronic",
+        "expansion",
+        "increase",
+        "damage",
+        "on",
+        "multi",
+        "kill"
+      ],
+      "effect": "Killing an enemy increases your damage by 3.5% (+1% per stack), up to 10 (+5 per stack), for 7s. Dealing damage refreshes the timer.",
+      "iconPath": "/assets/catalog/increasedamageonmultikill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Chronic_Expansion.png?9c8581",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Crowbar",
+      "name": "Crowbar",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "crowbar"
+      ],
+      "effect": "Deal +75% (+75% per stack) damage to enemies above 90% health.",
+      "iconPath": "/assets/catalog/crowbar.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Crowbar.png?e1451d",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "FragileDamageBonus",
+      "name": "Delicate Watch",
+      "rarity": "Common",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage",
+        "LowHealth",
+        "ExtractorUnitBlacklist"
+      ],
+      "aliases": [
+        "delicate",
+        "watch",
+        "fragile",
+        "damage",
+        "bonus"
+      ],
+      "effect": "Increase damage by 20% (+20% per stack). Taking damage to below 25% health breaks this item.",
+      "iconPath": "/assets/catalog/fragiledamagebonus.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Delicate_Watch.png?9dc3a5",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BarrierOnCooldown",
+      "name": "Eclipse Lite",
+      "rarity": "Common",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "eclipse",
+        "lite",
+        "barrier",
+        "on",
+        "cooldown"
+      ],
+      "effect": "When a skill comes off cooldown, gain a temporary barrier for 1% (+0.25% per stack) of your maximum health per second of the skill's base cooldown.",
+      "iconPath": "/assets/catalog/barrieroncooldown.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Eclipse_Lite.png?ec65b6",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SpeedBoostPickup",
+      "name": "Elusive Antlers",
+      "rarity": "Common",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Utility",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "elusive",
+        "antlers",
+        "speed",
+        "boost",
+        "pickup"
+      ],
+      "effect": "Spawns orbs of energy nearby every 10s (-10% per stack), giving +12% movement speed up to 3 (+3 per stack) times for 12s.",
+      "iconPath": "/assets/catalog/speedboostpickup.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Elusive_Antlers.png?aa64d9",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SprintBonus",
+      "name": "Energy Drink",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "SprintRelated",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "energy",
+        "drink",
+        "sprint",
+        "bonus"
+      ],
+      "effect": "Sprint speed is improved by 25% (+25% per stack).",
+      "iconPath": "/assets/catalog/sprintbonus.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Energy_Drink.png?e1e35e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "NearbyDamageBonus",
+      "name": "Focus Crystal",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "focus",
+        "crystal",
+        "nearby",
+        "damage",
+        "bonus"
+      ],
+      "effect": "Increase damage to enemies within 13m by 20% (+20% per stack).",
+      "iconPath": "/assets/catalog/nearbydamagebonus.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Focus_Crystal.png?e90864",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "IgniteOnKill",
+      "name": "Gasoline",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "gasoline",
+        "ignite",
+        "on",
+        "kill"
+      ],
+      "effect": "Killing an enemy ignites all enemies within 12m (+4m per stack) for 150% base damage. Additionally, enemies burn for 150% (+75% per stack) base damage.",
+      "iconPath": "/assets/catalog/igniteonkill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Gasoline.png?e89592",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "CritAtLowerElevation",
+      "name": "Hiker's Boots",
+      "rarity": "Common",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "hiker",
+        "s",
+        "boots",
+        "crit",
+        "at",
+        "lower",
+        "elevation"
+      ],
+      "effect": "Striking enemies from a higher elevation grants +1% (+1% per stack) critical strike chance and critical strike damage, up to 10 times. Lasts 10 seconds.",
+      "iconPath": "/assets/catalog/critatlowerelevation.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Hiker%27s_Boots.png?fcd1cf",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ScrapWhite",
+      "name": "Item Scrap, White",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "WorldUnique",
+        "Scrap",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "item",
+        "scrap",
+        "white"
+      ],
+      "effect": "Does nothing. Prioritized when used with 3D Printers.",
+      "iconPath": "/assets/catalog/scrapwhite.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Item_Scrap%2C_White.png?ba6532",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "CritGlasses",
+      "name": "Lens-Maker's Glasses",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "glasses",
+        "crit",
+        "lens"
+      ],
+      "effect": "Your attacks have a 10% (+10% per stack) chance to 'Critically Strike', dealing double damage.",
+      "iconPath": "/assets/catalog/critglasses.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Lens-Maker%27s_Glasses.png?ad4878",
+      "sourceStatus": "verified",
+      "priority": "core",
+      "priorityReason": "Reliable damage scaling for almost every attack build.",
+      "stackFormula": "Crit chance: 10% × stacks."
+    },
+    {
+      "id": "Medkit",
+      "name": "Medkit",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "medkit"
+      ],
+      "effect": "2 seconds after getting hurt, heal for 20 plus an additional 5% (+5% per stack) of maximum health.",
+      "iconPath": "/assets/catalog/medkit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Medkit.png?a48289",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "AttackSpeedAndMoveSpeed",
+      "name": "Mocha",
+      "rarity": "Common",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage",
+        "Utility",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "mocha",
+        "attack",
+        "speed",
+        "and",
+        "move"
+      ],
+      "effect": "Increases attack speed by 7.5% (+7.5% per stack) and movement speed by 7% (+7% per stack).",
+      "iconPath": "/assets/catalog/attackspeedandmovespeed.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Mocha.png?d39538",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Tooth",
+      "name": "Monster Tooth",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Healing",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "monster",
+        "tooth"
+      ],
+      "effect": "Killing an enemy spawns a healing orb that heals for 8 plus an additional 2% (+2% per stack) of maximum health.",
+      "iconPath": "/assets/catalog/tooth.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Monster_Tooth.png?1c97fe",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "OutOfCombatArmor",
+      "name": "Oddly-shaped Opal",
+      "rarity": "Common",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "oddly",
+        "shaped",
+        "opal",
+        "out",
+        "of",
+        "combat",
+        "armor"
+      ],
+      "effect": "Increase armor by 100 (+100 per stack) while out of danger.",
+      "iconPath": "/assets/catalog/outofcombatarmor.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Oddly-shaped_Opal.png?f3e2d6",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Hoof",
+      "name": "Paul's Goat Hoof",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "hoof",
+        "speed",
+        "movement"
+      ],
+      "effect": "Increases movement speed by 14% (+14% per stack).",
+      "iconPath": "/assets/catalog/hoof.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Paul%27s_Goat_Hoof.png?13b179",
+      "sourceStatus": "verified",
+      "priority": "core",
+      "priorityReason": "Movement solves routing, dodge windows, and pickup safety.",
+      "stackFormula": "Movement speed: +14% × stacks."
+    },
+    {
+      "id": "PersonalShield",
+      "name": "Personal Shield Generator",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "personal",
+        "shield",
+        "generator"
+      ],
+      "effect": "Gain a shield equal to 8% (+8% per stack) of your maximum health. Recharges outside of danger.",
+      "iconPath": "/assets/catalog/personalshield.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Personal_Shield_Generator.png?d760a9",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "HealingPotion",
+      "name": "Power Elixir",
+      "rarity": "Common",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Healing",
+        "LowHealth"
+      ],
+      "aliases": [
+        "power",
+        "elixir",
+        "healing",
+        "potion"
+      ],
+      "effect": "Taking damage to below 25% health consumes this item, healing you for 75% of maximum health.",
+      "iconPath": "/assets/catalog/healingpotion.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Power_Elixir.png?688f0e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ArmorPlate",
+      "name": "Repulsion Armor Plate",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "repulsion",
+        "armor",
+        "plate"
+      ],
+      "effect": "Reduce all incoming damage by {{Color|d|5{{Stack| (+5 per stack)}}}}. Cannot be reduced below 1.",
+      "iconPath": "/assets/catalog/armorplate.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Repulsion_Armor_Plate.png?5d8a01",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "GoldOnHurt",
+      "name": "Roll of Pennies",
+      "rarity": "Common",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "roll",
+        "of",
+        "pennies",
+        "gold",
+        "on",
+        "hurt"
+      ],
+      "effect": "Gain 3 (+3 per stack) gold on taking damage from an enemy. Scales over time.",
+      "iconPath": "/assets/catalog/goldonhurt.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Roll_of_Pennies.png?8888e3",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "TreasureCache",
+      "name": "Rusted Key",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "OnStageBeginEffect"
+      ],
+      "aliases": [
+        "rusted",
+        "key",
+        "treasure",
+        "cache"
+      ],
+      "effect": "A hidden cache containing an item (80%/20%) will appear in a random location on each stage. Opening the cache consumes this item.",
+      "iconPath": "/assets/catalog/treasurecache.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Rusted_Key.png?509297",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Syringe",
+      "name": "Soldier's Syringe",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "syringe",
+        "attack speed",
+        "firerate"
+      ],
+      "effect": "Increases attack speed by 15% (+15% per stack).",
+      "iconPath": "/assets/catalog/syringe.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Soldier%27s_Syringe.png?bfc7c5",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Best when your survivor converts frequent hits into damage or procs.",
+      "stackFormula": "Attack speed: +15% × stacks."
+    },
+    {
+      "id": "StickyBomb",
+      "name": "Sticky Bomb",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "sticky",
+        "bomb"
+      ],
+      "effect": "5% (+5% per stack) chance on hit to attach a bomb to an enemy, detonating for 180% TOTAL damage.",
+      "iconPath": "/assets/catalog/stickybomb.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Sticky_Bomb.png?ec0250",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "StunChanceOnHit",
+      "name": "Stun Grenade",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "stun",
+        "grenade",
+        "chance",
+        "on",
+        "hit"
+      ],
+      "effect": "5% (+5% on stack) chance on hit to stun enemies for 2 seconds.",
+      "iconPath": "/assets/catalog/stunchanceonhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Stun_Grenade.png?a5f003",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BarrierOnKill",
+      "name": "Topaz Brooch",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "Healing",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "topaz",
+        "brooch",
+        "barrier",
+        "on",
+        "kill"
+      ],
+      "effect": "Gain a temporary barrier on kill for 15 health (+15 per stack).",
+      "iconPath": "/assets/catalog/barrieronkill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Topaz_Brooch.png?8f993a",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Bear",
+      "name": "Tougher Times",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "BrotherBlacklist"
+      ],
+      "aliases": [
+        "bear",
+        "block",
+        "defense"
+      ],
+      "effect": "15% (+15% per stack) chance to block incoming damage. Unaffected by luck.",
+      "iconPath": "/assets/catalog/bear.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Tougher_Times.png?794e6d",
+      "sourceStatus": "verified",
+      "priority": "core",
+      "priorityReason": "A strong general survival pickup when the run lacks protection.",
+      "stackFormula": "Block chance: 15% × stacks; capped by game behavior."
+    },
+    {
+      "id": "BleedOnHit",
+      "name": "Tri-Tip Dagger",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "tri",
+        "tip",
+        "dagger",
+        "bleed",
+        "on",
+        "hit"
+      ],
+      "effect": "10% (+10% per stack) chance to bleed an enemy for 240% base damage.",
+      "iconPath": "/assets/catalog/bleedonhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Tri-Tip_Dagger.png?bebb4f",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "WardOnLevel",
+      "name": "Warbanner",
+      "rarity": "Common",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TurretBlacklist",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "warbanner",
+        "ward",
+        "on",
+        "level"
+      ],
+      "effect": "On level up or starting the Teleporter event, drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.",
+      "iconPath": "/assets/catalog/wardonlevel.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Warbanner.png?d4c794",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "DelayedDamage",
+      "name": "Warped Echo",
+      "rarity": "Common",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "warped",
+        "echo",
+        "delayed",
+        "damage"
+      ],
+      "effect": "The next source of damage is reduced by 10% and spread into 3 (+1 per stack) hits. All echoed damage is non-lethal except for the final hit. Recharges every 15s.",
+      "iconPath": "/assets/catalog/delayeddamage.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Warped_Echo.png?e44c87",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Clover",
+      "name": "57 Leaf Clover",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "clover",
+        "luck",
+        "57 leaf"
+      ],
+      "effect": "All random effects are rolled +1 (+1 per stack) times for a favorable outcome.",
+      "iconPath": "/assets/catalog/clover.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/57_Leaf_Clover.png?aa833a",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Excellent only after you already have worthwhile chance-based effects."
+    },
+    {
+      "id": "BarrierOnOverHeal",
+      "name": "Aegis",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "Healing"
+      ],
+      "aliases": [
+        "aegis",
+        "barrier",
+        "on",
+        "over",
+        "heal"
+      ],
+      "effect": "Healing past full grants you a temporary barrier for 50% (+50% per stack) of the amount you healed.",
+      "iconPath": "/assets/catalog/barrieronoverheal.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Aegis.png?19cea7",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "AlienHead",
+      "name": "Alien Head",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "alien",
+        "head"
+      ],
+      "effect": "Reduce skill cooldowns by 25% (+25% per stack).",
+      "iconPath": "/assets/catalog/alienhead.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Alien_Head.png?3860a3",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ImmuneToDebuff",
+      "name": "Ben's Raincoat",
+      "rarity": "Legendary",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "Healing"
+      ],
+      "aliases": [
+        "ben",
+        "s",
+        "raincoat",
+        "immune",
+        "to",
+        "debuff"
+      ],
+      "effect": "Prevents 1 (+1 per stack) debuff and instead grants a temporary barrier for 10% of maximum health. Recharges every 5 seconds.",
+      "iconPath": "/assets/catalog/immunetodebuff.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Ben%27s_Raincoat.png?37355b",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "RandomEquipmentTrigger",
+      "name": "Bottled Chaos",
+      "rarity": "Legendary",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "EquipmentRelated"
+      ],
+      "aliases": [
+        "bottled",
+        "chaos",
+        "random",
+        "equipment",
+        "trigger"
+      ],
+      "effect": "Trigger a random equipment effect 1 (+1 per stack) time(s).",
+      "iconPath": "/assets/catalog/randomequipmenttrigger.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Bottled_Chaos.png?7b1311",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "KillEliteFrenzy",
+      "name": "Brainstalks",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "brainstalks",
+        "kill",
+        "elite",
+        "frenzy"
+      ],
+      "effect": "Upon killing an elite monster, enter a frenzy for 4s (+4s per stack) where skills have 0.5s cooldowns.",
+      "iconPath": "/assets/catalog/killelitefrenzy.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Brainstalks.png?2c5801",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Behemoth",
+      "name": "Brilliant Behemoth",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "brilliant",
+        "behemoth"
+      ],
+      "effect": "All your attacks explode in a 4m (+2.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.",
+      "iconPath": "/assets/catalog/behemoth.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Brilliant_Behemoth.png?a02dfe",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Dagger",
+      "name": "Ceremonial Dagger",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "ceremonial",
+        "dagger"
+      ],
+      "effect": "Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.",
+      "iconPath": "/assets/catalog/dagger.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Ceremonial_Dagger.png?c9284a",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "CaptainDefenseMatrix",
+      "name": "Defensive Microbots",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "WorldUnique",
+        "RebirthBlacklist"
+      ],
+      "aliases": [
+        "defensive",
+        "microbots",
+        "captain",
+        "defense",
+        "matrix"
+      ],
+      "effect": "Shoot down 1 (+1 per stack) projectiles within 20m every 0.5 seconds. Recharge rate scales with attack speed.",
+      "iconPath": "/assets/catalog/captaindefensematrix.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Defensive_Microbots.png?e9ab49",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ExtraLife",
+      "name": "Dio's Best Friend",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "ExtractorUnitBlacklist"
+      ],
+      "aliases": [
+        "dio",
+        "s",
+        "best",
+        "friend",
+        "extra",
+        "life"
+      ],
+      "effect": "Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability.",
+      "iconPath": "/assets/catalog/extralife.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Dio%27s_Best_Friend.png?fd4624",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "StunAndPierce",
+      "name": "Electric Boomerang",
+      "rarity": "Legendary",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "electric",
+        "boomerang",
+        "stun",
+        "and",
+        "pierce"
+      ],
+      "effect": "15% chance on hit to fire an electric boomerang that travels a short distance before returning, dealing 120% (+120% per stack) damage and stunning all enemies hit. Also deals an additional 42% (+42% per stack) per second. Can strike enemies on the way back.",
+      "iconPath": "/assets/catalog/stunandpierce.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Electric_Boomerang.png?805d33",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Icicle",
+      "name": "Frost Relic",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "frost",
+        "relic",
+        "icicle"
+      ],
+      "effect": "Killing an enemy surrounds you with an ice storm that deals 1200% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing its radius by 2m. Stacks up to 18m (+12m per stack).",
+      "iconPath": "/assets/catalog/icicle.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Frost_Relic.png?a6959b",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BoostAllStats",
+      "name": "Growth Nectar",
+      "rarity": "Legendary",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Utility",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "growth",
+        "nectar",
+        "boost",
+        "all",
+        "stats"
+      ],
+      "effect": "Grants 4% increase to ALL stats for each buff, up to a maximum of 4 (+4 per stack).",
+      "iconPath": "/assets/catalog/boostallstats.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Growth_Nectar.png?15a6f2",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "FallBoots",
+      "name": "H3AD-5T v2",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "Damage",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "h3ad",
+        "5t",
+        "v2",
+        "fall",
+        "boots"
+      ],
+      "effect": "Increase jump height. Creates a 5m-100m radius kinetic explosion on hitting the ground, dealing 1000%-10000% base damage that scales up with fall distance. Recharges in 10 (-50% per stack) seconds.",
+      "iconPath": "/assets/catalog/fallboots.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/H3AD-5T_v2.png?fa044f",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "GhostOnKill",
+      "name": "Happiest Mask",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "Utility",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "happiest",
+        "mask",
+        "ghost",
+        "on",
+        "kill"
+      ],
+      "effect": "Killing enemies has a 7% chance to spawn a ghost of the killed enemy with 1500% damage. Lasts 30s (+30s per stack).",
+      "iconPath": "/assets/catalog/ghostonkill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Happiest_Mask.png?cdf26d",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "UtilitySkillMagazine",
+      "name": "Hardlight Afterburner",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "hardlight",
+        "afterburner",
+        "utility",
+        "skill",
+        "magazine"
+      ],
+      "effect": "Add +2 (+2 per stack) charges of your Utility skill. Reduces Utility skill cooldown by 33%.",
+      "iconPath": "/assets/catalog/utilityskillmagazine.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Hardlight_Afterburner.png?39c0c2",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Plant",
+      "name": "Interstellar Desk Plant",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Healing",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "interstellar",
+        "desk",
+        "plant"
+      ],
+      "effect": "On kill, plant a healing fruit seed that grows into a plant after 5 seconds.\\r\\n\\r\\nThe plant heals for 5% of maximum health every 0.5 second to all allies within 10m (+5.0m per stack). Lasts 10 seconds.",
+      "iconPath": "/assets/catalog/plant.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Interstellar_Desk_Plant.png?6e64fc",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ScrapRed",
+      "name": "Item Scrap, Red",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "WorldUnique",
+        "Scrap",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "item",
+        "scrap",
+        "red"
+      ],
+      "effect": "Does nothing. Prioritized when used with 3D Printers.",
+      "iconPath": "/assets/catalog/scrapred.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Item_Scrap%2C_Red.png?d4ddc3",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "CritDamage",
+      "name": "Laser Scope",
+      "rarity": "Legendary",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "laser",
+        "scope",
+        "crit",
+        "damage"
+      ],
+      "effect": "Critical Strikes deal an additional 100% damage (+100% per stack).",
+      "iconPath": "/assets/catalog/critdamage.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Laser_Scope.png?70a64b",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "NovaOnHeal",
+      "name": "N'kuhana's Opinion",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "n",
+        "kuhana",
+        "s",
+        "opinion",
+        "nova",
+        "on",
+        "heal"
+      ],
+      "effect": "Store 100% (+100% per stack) of healing as Soul Energy. After your Soul Energy reaches 10% of your maximum health, fire a skull that deals 250% of your Soul Energy as damage.",
+      "iconPath": "/assets/catalog/novaonheal.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/N%27kuhana%27s_Opinion.png?632a93",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SharedSuffering",
+      "name": "Networked Suffering",
+      "rarity": "Legendary",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "networked",
+        "suffering",
+        "shared"
+      ],
+      "effect": "Infect up to 4 (+2 per stack) enemies with a computer virus that duplicates 45% of all damage taken and sends it to a global damage pool. Every 3 seconds, ALL infected enemies suffer 100% pooled damage.",
+      "iconPath": "/assets/catalog/sharedsuffering.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Networked_Suffering.png?77b8d0",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "PhysicsProjectile",
+      "name": "Orphaned Core",
+      "rarity": "Legendary",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Damage",
+        "CannotSteal",
+        "TurretBlacklist"
+      ],
+      "aliases": [
+        "orphaned",
+        "core",
+        "physics",
+        "projectile"
+      ],
+      "effect": "Gain a friendly Solus unit that launches itself at enemies for 400% (+400% per stack). The unit inherits your movement speed items and deals more damage the faster it moves. The unit can be pet to cleanse negative effects. Recharges after 15 seconds.",
+      "iconPath": "/assets/catalog/physicsprojectile.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Orphaned_Core.png?1d7942",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MoreMissile",
+      "name": "Pocket I.C.B.M.",
+      "rarity": "Legendary",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "pocket",
+        "i",
+        "c",
+        "b",
+        "m",
+        "more",
+        "missile"
+      ],
+      "effect": "All missile items and equipment fire an additional 2 missiles. Increase missile damage by 0% (+50% per stack).",
+      "iconPath": "/assets/catalog/moremissile.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Pocket_I.C.B.M..png?c31388",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "IncreaseHealing",
+      "name": "Rejuvenation Rack",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "rejuvenation",
+        "rack",
+        "increase",
+        "healing"
+      ],
+      "effect": "Heal +100% (+100% per stack) more.",
+      "iconPath": "/assets/catalog/increasehealing.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Rejuvenation_Rack.png?b147d1",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LaserTurbine",
+      "name": "Resonance Disc",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "resonance",
+        "disc",
+        "laser",
+        "turbine"
+      ],
+      "effect": "Killing 4 enemies in 7 seconds charges the Resonance Disc. The disc launches itself toward a target for 300% base damage (+300% per stack), piercing all enemies it doesn't kill, and then explodes for 1000% base damage (+1000% per stack). Returns to the user, striking all enemies along the way for 300% base damage (+300% per stack).",
+      "iconPath": "/assets/catalog/laserturbine.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Resonance_Disc.png?5405c0",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MeteorAttackOnHighDamage",
+      "name": "Runic Lens",
+      "rarity": "Legendary",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "runic",
+        "lens",
+        "meteor",
+        "attack",
+        "on",
+        "high",
+        "damage"
+      ],
+      "effect": "3% chance on hit to call down a meteor, dealing 2000% base damage. Every 100% attack damage dealt increases the activation chance by 3% (+3% per stack) and damage by 150% (+50% per stack).",
+      "iconPath": "/assets/catalog/meteorattackonhighdamage.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Runic_Lens.png?c74f3e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BounceNearby",
+      "name": "Sentient Meat Hook",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "sentient",
+        "meat",
+        "hook",
+        "bounce",
+        "nearby"
+      ],
+      "effect": "20% (+20% per stack) chance on hit to fire homing hooks at up to 10 (+5 per stack) enemies for 100% TOTAL damage.",
+      "iconPath": "/assets/catalog/bouncenearby.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Sentient_Meat_Hook.png?613d47",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ArmorReductionOnHit",
+      "name": "Shattering Justice",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "shattering",
+        "justice",
+        "armor",
+        "reduction",
+        "on",
+        "hit"
+      ],
+      "effect": "After hitting an enemy 5 times, reduce their armor by 60 for 8 (+8 per stack) seconds.",
+      "iconPath": "/assets/catalog/armorreductiononhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Shattering_Justice.png?fbb55d",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ItemDropChanceOnKill",
+      "name": "Sonorous Whispers",
+      "rarity": "Legendary",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Utility",
+        "PrinterBlacklist"
+      ],
+      "aliases": [
+        "sonorous",
+        "whispers",
+        "item",
+        "drop",
+        "chance",
+        "on",
+        "kill"
+      ],
+      "effect": "When a large monster is killed it will always drop an item. All elites have a 5% chance of dropping an item (+1% per item stack).",
+      "iconPath": "/assets/catalog/itemdropchanceonkill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Sonorous_Whispers.png?893de8",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Talisman",
+      "name": "Soulbound Catalyst",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "OnKillEffect",
+        "EquipmentRelated"
+      ],
+      "aliases": [
+        "soulbound",
+        "catalyst",
+        "talisman"
+      ],
+      "effect": "Kills reduce equipment cooldown by 4s (+2s per stack).",
+      "iconPath": "/assets/catalog/talisman.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Soulbound_Catalyst.png?4166e8",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "DroneWeapons",
+      "name": "Spare Drone Parts",
+      "rarity": "Legendary",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage",
+        "TurretBlacklist",
+        "SimulacrumBlacklist"
+      ],
+      "aliases": [
+        "spare",
+        "drone",
+        "parts",
+        "weapons"
+      ],
+      "effect": "Gain Col. Droneman. Drones gain +25% (+25% per stack) attack speed and cooldown reduction. Drones gain 10% chance to fire a missile on hit, dealing 150% TOTAL damage. Drones gain an automatic chain gun that deals 6x50% damage, bouncing to 2 enemies.",
+      "iconPath": "/assets/catalog/droneweapons.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Spare_Drone_Parts.png?1cc7ae",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Duplicator",
+      "name": "Substandard Duplicator",
+      "rarity": "Legendary",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Utility",
+        "DevotionBlacklist"
+      ],
+      "aliases": [
+        "substandard",
+        "duplicator"
+      ],
+      "effect": "Picking up an item gives you a temporary copy of itself. Temporary items last an additional 10 (+10 per stack) seconds",
+      "iconPath": "/assets/catalog/duplicator.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Substandard_Duplicator.png?65885e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "PermanentDebuffOnHit",
+      "name": "Symbiotic Scorpion",
+      "rarity": "Legendary",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "symbiotic",
+        "scorpion",
+        "permanent",
+        "debuff",
+        "on",
+        "hit"
+      ],
+      "effect": "100% chance on hit to reduce armor by 2 (+2 per stack) permanently.",
+      "iconPath": "/assets/catalog/permanentdebuffonhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Symbiotic_Scorpion.png?b0b76d",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ShockNearby",
+      "name": "Unstable Tesla Coil",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "unstable",
+        "tesla",
+        "coil",
+        "shock",
+        "nearby"
+      ],
+      "effect": "Fire out lightning that hits 3 (+2 per stack) enemies for 200% base damage every 0.5s. The Tesla Coil switches off every 10 seconds.",
+      "iconPath": "/assets/catalog/shocknearby.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Unstable_Tesla_Coil.png?d34a12",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "HeadHunter",
+      "name": "Wake of Vultures",
+      "rarity": "Legendary",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "Damage",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "wake",
+        "of",
+        "vultures",
+        "head",
+        "hunter"
+      ],
+      "effect": "Gain the power of any killed elite monster for 8s (+5s per stack).",
+      "iconPath": "/assets/catalog/headhunter.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Wake_of_Vultures.png?c6b71a",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BarrageOnBoss",
+      "name": "War Bonds",
+      "rarity": "Legendary",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "war",
+        "bonds",
+        "barrage",
+        "on",
+        "boss"
+      ],
+      "effect": "During boss events, 5 missiles bombard the area, dealing 2.5% (+2.5 per stack) of bosses' Max Health in damage. Before the boss event, gain additional missiles, up to a maximum of 20 (+5 per stack), per 50 gold gained. Gold requirement scales with time.",
+      "iconPath": "/assets/catalog/barrageonboss.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/War_Bonds.png?fb59ab",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LunarTrinket",
+      "name": "Beads of Fealty",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "ObliterationRelated",
+        "TemporaryBlacklist",
+        "SimulacrumBlacklist"
+      ],
+      "aliases": [
+        "beads",
+        "of",
+        "fealty",
+        "lunar",
+        "trinket"
+      ],
+      "effect": "Seems to do nothing... but...",
+      "iconPath": "/assets/catalog/lunartrinket.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Beads_of_Fealty.png?d04190",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "GoldOnHit",
+      "name": "Brittle Crown",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "brittle",
+        "crown",
+        "gold",
+        "on",
+        "hit"
+      ],
+      "effect": "30% chance on hit to gain 2 (+2 per stack) gold. Scales over time.\\r\\n\\r\\nLose gold on taking damage equal to 100% (+100% per stack) of the maximum health percentage you lost.",
+      "iconPath": "/assets/catalog/goldonhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Brittle_Crown.png?cc94ca",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "RepeatHeal",
+      "name": "Corpsebloom",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Healing",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "corpsebloom",
+        "repeat",
+        "heal"
+      ],
+      "effect": "Heal +100% (+100% per stack) more. All healing is applied over time. Can heal for a maximum of 10% (-50% per stack) of your health per second.",
+      "iconPath": "/assets/catalog/repeatheal.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Corpsebloom.png?6c4df0",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MonstersOnShrineUse",
+      "name": "Defiant Gouge",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "defiant",
+        "gouge",
+        "monsters",
+        "on",
+        "shrine",
+        "use"
+      ],
+      "effect": "Using a Shrine summons enemies (stronger per stack) nearby. Scales over time.",
+      "iconPath": "/assets/catalog/monstersonshrineuse.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Defiant_Gouge.png?25b76c",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LunarSun",
+      "name": "Egocentrism",
+      "rarity": "Lunar",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "egocentrism",
+        "lunar",
+        "sun"
+      ],
+      "effect": "Every 3 (-50% per stack) seconds, gain an orbiting bomb that detonates on impact for 360% damage, up to a maximum of 3 bombs (+1 per stack). Every 60 seconds, a random item is converted into this item.",
+      "iconPath": "/assets/catalog/lunarsun.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Egocentrism.png?2e35c9",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LunarSpecialReplacement",
+      "name": "Essence of Heresy",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "CannotSteal",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "essence",
+        "of",
+        "heresy",
+        "lunar",
+        "special",
+        "replacement"
+      ],
+      "effect": "Replace your Special Skill with Ruin.\\r\\n\\r\\nDealing damage adds a stack of Ruin for 10 (+10 per stack) seconds. Activating the skill detonates all Ruin stacks at unlimited range, dealing 300% damage plus 120% damage per stack of Ruin. Recharges after 8 (+8 per stack) seconds.",
+      "iconPath": "/assets/catalog/lunarspecialreplacement.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Essence_of_Heresy.png?3ed389",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "RandomlyLunar",
+      "name": "Eulogy Zero",
+      "rarity": "Lunar",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "BrotherBlacklist",
+        "RebirthBlacklist",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "eulogy",
+        "zero",
+        "randomly",
+        "lunar"
+      ],
+      "effect": "Items have a 5% (+5% per stack) chance to become a Lunar item instead.",
+      "iconPath": "/assets/catalog/randomlylunar.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Eulogy_Zero.png?1f5ffb",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "FocusConvergence",
+      "name": "Focused Convergence",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TurretBlacklist",
+        "HoldoutZoneRelated",
+        "TemporaryBlacklist",
+        "SimulacrumBlacklist"
+      ],
+      "aliases": [
+        "focused",
+        "convergence",
+        "focus"
+      ],
+      "effect": "Teleporters charge 30% (+30% per stack) faster, but the size of the Teleporter zone is 50% (-50% per stack) smaller.",
+      "iconPath": "/assets/catalog/focusconvergence.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Focused_Convergence.png?2df641",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "AutoCastEquipment",
+      "name": "Gesture of the Drowned",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "EquipmentRelated",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "gesture",
+        "of",
+        "the",
+        "drowned",
+        "auto",
+        "cast",
+        "equipment"
+      ],
+      "effect": "Reduce Equipment cooldown by 50% (+15% per stack). Forces your Equipment to activate whenever it is off cooldown.",
+      "iconPath": "/assets/catalog/autocastequipment.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Gesture_of_the_Drowned.png?8f29b3",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LunarSecondaryReplacement",
+      "name": "Hooks of Heresy",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "CannotSteal",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "hooks",
+        "of",
+        "heresy",
+        "lunar",
+        "secondary",
+        "replacement"
+      ],
+      "effect": "Replace your Secondary Skill with Slicing Maelstrom.\\r\\n\\r\\nCharge up a projectile that deals 875% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.",
+      "iconPath": "/assets/catalog/lunarsecondaryreplacement.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Hooks_of_Heresy.png?a0370b",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "HalfAttackSpeedHalfCooldowns",
+      "name": "Light Flux Pauldron",
+      "rarity": "Lunar",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "light",
+        "flux",
+        "pauldron",
+        "half",
+        "attack",
+        "speed",
+        "cooldowns"
+      ],
+      "effect": "Decrease skill cooldowns by 50% (+50% per stack). Decrease attack speed by 50% (+50% per stack).",
+      "iconPath": "/assets/catalog/halfattackspeedhalfcooldowns.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Light_Flux_Pauldron.png?a98aa4",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "OnLevelUpFreeUnlock",
+      "name": "Longstanding Solitude",
+      "rarity": "Lunar",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Utility",
+        "Damage",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "longstanding",
+        "solitude",
+        "on",
+        "level",
+        "up",
+        "free",
+        "unlock"
+      ],
+      "effect": "On level up gain a free unlock for the next purchase (+1 per stack) but all gold is converted to experience. Anything that costs gold is increased by 50% (+50% per stack).",
+      "iconPath": "/assets/catalog/onlevelupfreeunlock.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Longstanding_Solitude.png?6a5cdc",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "RandomDamageZone",
+      "name": "Mercurial Rachis",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "mercurial",
+        "rachis",
+        "random",
+        "damage",
+        "zone"
+      ],
+      "effect": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.",
+      "iconPath": "/assets/catalog/randomdamagezone.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Mercurial_Rachis.png?b667b8",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "TransferredDebuffOnHit",
+      "name": "Neutronium Weight",
+      "rarity": "Lunar",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Utility",
+        "OnKillEffect",
+        "CannotSteal",
+        "TurretBlacklist",
+        "RebirthBlacklist",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "neutronium",
+        "weight",
+        "transferred",
+        "debuff",
+        "on",
+        "hit"
+      ],
+      "effect": "Reduces your stats while in combat, but send this item to an enemy on hit. On death, this item will be sent to its holder's killer.\\r\\n\\r\\nReduces damage by 30% (+10% per stack), attack speed by 30% (+10% per stack), movement speed by 30% (+10% per stack), and armor by 35 (+15 per stack).",
+      "iconPath": "/assets/catalog/transferreddebuffonhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Neutronium_Weight.png?dff736",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LunarBadLuck",
+      "name": "Purity",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "purity",
+        "lunar",
+        "bad",
+        "luck"
+      ],
+      "effect": "All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.",
+      "iconPath": "/assets/catalog/lunarbadluck.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Purity.png?bae78f",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LunarDagger",
+      "name": "Shaped Glass",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "glass",
+        "shaped",
+        "half health"
+      ],
+      "effect": "Increase base damage by 100% (+100% per stack). Reduce maximum health by 50% (+50% per stack).",
+      "iconPath": "/assets/catalog/lunardagger.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Shaped_Glass.png?bb7dae",
+      "sourceStatus": "verified",
+      "priority": "skip",
+      "priorityReason": "A deliberate risk choice; avoid it when the run cannot survive mistakes."
+    },
+    {
+      "id": "HalfSpeedDoubleHealth",
+      "name": "Stone Flux Pauldron",
+      "rarity": "Lunar",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Healing",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "stone",
+        "flux",
+        "pauldron",
+        "half",
+        "speed",
+        "double",
+        "health"
+      ],
+      "effect": "Increase max health by 100% (+100% per stack). Reduce movement speed by 50% (+50% per stack).",
+      "iconPath": "/assets/catalog/halfspeeddoublehealth.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Stone_Flux_Pauldron.png?c5291f",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LunarUtilityReplacement",
+      "name": "Strides of Heresy",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "CannotSteal",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "strides",
+        "of",
+        "heresy",
+        "lunar",
+        "utility",
+        "replacement"
+      ],
+      "effect": "Replace your Utility Skill with Shadowfade.\\r\\n\\r\\nFade away, becoming intangible and gaining +30% movement speed. Heal for 18.2% (+18.2% per stack) of your maximum health. Lasts 3 (+3 per stack) seconds.",
+      "iconPath": "/assets/catalog/lunarutilityreplacement.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Strides_of_Heresy.png?ee4235",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ShieldOnly",
+      "name": "Transcendence",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "transcendence",
+        "shield",
+        "only"
+      ],
+      "effect": "Convert all but 1 health into regenerating shields. Gain 50% (+25% per stack) maximum health.",
+      "iconPath": "/assets/catalog/shieldonly.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Transcendence.png?b71aa9",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LunarPrimaryReplacement",
+      "name": "Visions of Heresy",
+      "rarity": "Lunar",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "CannotSteal",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "visions",
+        "of",
+        "heresy",
+        "lunar",
+        "primary",
+        "replacement"
+      ],
+      "effect": "Replace your Primary Skill with Hungering Gaze.\\r\\n\\r\\nFire a flurry of tracking shards that detonate after a delay, dealing 120% base damage. Hold up to 12 charges (+12 per stack) that reload after 2 seconds (+2 per stack).",
+      "iconPath": "/assets/catalog/lunarprimaryreplacement.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Visions_of_Heresy.png?ecd351",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Missile",
+      "name": "AtG Missile Mk. 1",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "atg",
+        "missile",
+        "rocket"
+      ],
+      "effect": "10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.",
+      "iconPath": "/assets/catalog/missile.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/AtG_Missile_Mk._1.png?4f776c",
+      "sourceStatus": "verified",
+      "priority": "core",
+      "priorityReason": "High-value proc damage that scales with frequent hits.",
+      "stackFormula": "Missile damage: 300% total damage × stacks after the first."
+    },
+    {
+      "id": "Bandolier",
+      "name": "Bandolier",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "bandolier"
+      ],
+      "effect": "18% (+10% per stack) chance on kill to drop an ammo pack that resets all skill cooldowns.",
+      "iconPath": "/assets/catalog/bandolier.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Bandolier.png?aca75f",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "WarCryOnMultiKill",
+      "name": "Berzerker's Pauldron",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "OnKillEffect",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "berzerker",
+        "s",
+        "pauldron",
+        "war",
+        "cry",
+        "on",
+        "multi",
+        "kill"
+      ],
+      "effect": "Killing 4 enemies within 1 second sends you into a frenzy for 6s (+4s per stack). Increases movement speed by 50% and attack speed by 100%.",
+      "iconPath": "/assets/catalog/warcryonmultikill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Berzerker%27s_Pauldron.png?da7fcf",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "DronesDropDynamite",
+      "name": "Box of Dynamite",
+      "rarity": "Uncommon",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Damage",
+        "TurretBlacklist",
+        "SimulacrumBlacklist"
+      ],
+      "aliases": [
+        "box",
+        "of",
+        "dynamite",
+        "drones",
+        "drop"
+      ],
+      "effect": "Gain Lt. Droneboy. While in combat, your drones drop sticks of dynamite that detonate for 240% damage (+85% per stack), stunning enemies. Recharges after 10 seconds.",
+      "iconPath": "/assets/catalog/dronesdropdynamite.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Box_of_Dynamite.png?dafb49",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "KnockBackHitEnemies",
+      "name": "Breaching Fin",
+      "rarity": "Uncommon",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Utility",
+        "Damage",
+        "DevotionBlacklist"
+      ],
+      "aliases": [
+        "breaching",
+        "fin",
+        "knock",
+        "back",
+        "hit",
+        "enemies"
+      ],
+      "effect": "Grounded enemies hit with any skill are launched and stunned. Enemies hit while airborne are launched again up to 2 times (+1 per stack). Launched enemies take increased damage by 10% from all sources per launch.",
+      "iconPath": "/assets/catalog/knockbackhitenemies.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Breaching_Fin.png?31f153",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ExtraShrineItem",
+      "name": "Chance Doll",
+      "rarity": "Uncommon",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "PrinterBlacklist",
+        "Utility",
+        "SacrificeBlacklist"
+      ],
+      "aliases": [
+        "chance",
+        "doll",
+        "extra",
+        "shrine",
+        "item"
+      ],
+      "effect": "40% (+10% per stack) chance to get higher rarity items from chance shrines on success.",
+      "iconPath": "/assets/catalog/extrashrineitem.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Chance_Doll.png?266327",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SlowOnHit",
+      "name": "Chronobauble",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "chronobauble",
+        "slow",
+        "on",
+        "hit"
+      ],
+      "effect": "Slow enemies on hit for -60% movement speed for 2s (+2s per stack).",
+      "iconPath": "/assets/catalog/slowonhit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Chronobauble.png?aea0aa",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SpeedOnPickup",
+      "name": "Collector's Compulsion",
+      "rarity": "Uncommon",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Utility",
+        "InteractableRelated",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "collector",
+        "s",
+        "compulsion",
+        "speed",
+        "on",
+        "pickup"
+      ],
+      "effect": "Picking up an item or other collectible increases all stats by +3% for 20 seconds, up to 3 (+2 per stack) times. Barrels grant minor pickups.",
+      "iconPath": "/assets/catalog/speedonpickup.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Collector%27s_Compulsion.png?f7ad57",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "DeathMark",
+      "name": "Death Mark",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "death",
+        "mark"
+      ],
+      "effect": "Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50% from all sources for 7 (+7 per stack) seconds.",
+      "iconPath": "/assets/catalog/deathmark.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Death_Mark.png?bc7d0c",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "JumpDamageStrike",
+      "name": "Faraday Spur",
+      "rarity": "Uncommon",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Damage",
+        "SprintRelated",
+        "MobilityRelated",
+        "DevotionBlacklist"
+      ],
+      "aliases": [
+        "faraday",
+        "spur",
+        "jump",
+        "damage",
+        "strike"
+      ],
+      "effect": "Moving around builds up charge, granting up to +160% movement speed and +200% jump height at 100%. At 25% charge or higher, jumping triggers an explosive discharge for 400% (+280% per stack) damage in a 5m to 32.3m (+7.5m per stack) area.",
+      "iconPath": "/assets/catalog/jumpdamagestrike.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Faraday_Spur.png?424345",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "EquipmentMagazine",
+      "name": "Fuel Cell",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "EquipmentRelated"
+      ],
+      "aliases": [
+        "fuel",
+        "cell",
+        "equipment",
+        "magazine"
+      ],
+      "effect": "Hold an additional equipment charge (+1 per stack). Reduce equipment cooldown by 15% (+15% per stack).",
+      "iconPath": "/assets/catalog/equipmentmagazine.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Fuel_Cell.png?93ae1d",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BonusGoldPackOnKill",
+      "name": "Ghor's Tome",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "ghor",
+        "s",
+        "tome",
+        "bonus",
+        "gold",
+        "pack",
+        "on",
+        "kill"
+      ],
+      "effect": "4% (+4% on stack) chance on kill to drop a treasure worth $25. Scales over time.",
+      "iconPath": "/assets/catalog/bonusgoldpackonkill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Ghor%27s_Tome.png?3210fa",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "HealOnCrit",
+      "name": "Harvester's Scythe",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "harvester",
+        "s",
+        "scythe",
+        "heal",
+        "on",
+        "crit"
+      ],
+      "effect": "Gain 5% critical chance. Critical strikes heal for 8 (+4 per stack) health.",
+      "iconPath": "/assets/catalog/healoncrit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Harvester%27s_Scythe.png?2b27b7",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Feather",
+      "name": "Hopoo Feather",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "hopoo",
+        "feather"
+      ],
+      "effect": "Gain +1 (+1 per stack) maximum jump count.",
+      "iconPath": "/assets/catalog/feather.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Hopoo_Feather.png?8dd2e6",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MoveSpeedOnKill",
+      "name": "Hunter's Harpoon",
+      "rarity": "Uncommon",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "OnKillEffect",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "hunter",
+        "s",
+        "harpoon",
+        "move",
+        "speed",
+        "on",
+        "kill"
+      ],
+      "effect": "Killing an enemy increases movement speed by 125%, fading over 1 (+0.5 per stack) seconds.",
+      "iconPath": "/assets/catalog/movespeedonkill.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Hunter%27s_Harpoon.png?9b9a5e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "StrengthenBurn",
+      "name": "Ignition Tank",
+      "rarity": "Uncommon",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "ignition",
+        "tank",
+        "strengthen",
+        "burn"
+      ],
+      "effect": "Ignite effects deal +300% (+300% per stack) more damage over time.",
+      "iconPath": "/assets/catalog/strengthenburn.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Ignition_Tank.png?14a761",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Infusion",
+      "name": "Infusion",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "Healing",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "infusion"
+      ],
+      "effect": "Killing an enemy increases your health permanently by 1 (+1 per stack), up to a maximum of 100 (+100 per stack) health.",
+      "iconPath": "/assets/catalog/infusion.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Infusion.png?3e199e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ScrapGreen",
+      "name": "Item Scrap, Green",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "WorldUnique",
+        "Scrap",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "item",
+        "scrap",
+        "green"
+      ],
+      "effect": "Does nothing. Prioritized when used with 3D Printers.",
+      "iconPath": "/assets/catalog/scrapgreen.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Item_Scrap%2C_Green.png?39ccd7",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ShieldBooster",
+      "name": "Kinetic Dampener",
+      "rarity": "Uncommon",
+      "scope": "Alloyed Collective",
+      "categories": [
+        "Healing",
+        "Utility"
+      ],
+      "aliases": [
+        "kinetic",
+        "dampener",
+        "shield",
+        "booster"
+      ],
+      "effect": "Increases armor by 30 (+30 per stack) while you have a shield. When shield breaks, release a stunning pulse for 100% damage plus an amount equal to 100% (+10% per stack) of your max shield. Grants a shield for 4% of your max health.",
+      "iconPath": "/assets/catalog/shieldbooster.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Kinetic_Dampener.png?5215e9",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "FireRing",
+      "name": "Kjaro's Band",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "kjaro",
+        "s",
+        "band",
+        "fire",
+        "ring"
+      ],
+      "effect": "Hits that deal more than 400% damage also blasts enemies with a runic flame tornado, dealing 300% (+300% per stack) TOTAL damage over time. Recharges every 10 seconds.",
+      "iconPath": "/assets/catalog/firering.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Kjaro%27s_Band.png?64a333",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Seed",
+      "name": "Leeching Seed",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Healing"
+      ],
+      "aliases": [
+        "leeching",
+        "seed"
+      ],
+      "effect": "Dealing damage heals you for 1 (+1 per stack) health.",
+      "iconPath": "/assets/catalog/seed.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Leeching_Seed.png?32ebf1",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "TPHealingNova",
+      "name": "Lepton Daisy",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Healing",
+        "TurretBlacklist",
+        "HoldoutZoneRelated"
+      ],
+      "aliases": [
+        "lepton",
+        "daisy",
+        "tphealing",
+        "nova"
+      ],
+      "effect": "Release a healing nova during the Teleporter event, healing all nearby allies for 50% of their maximum health. Occurs 1 (+1 per stack) times.",
+      "iconPath": "/assets/catalog/tphealingnova.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Lepton_Daisy.png?155bd5",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "IncreasePrimaryDamage",
+      "name": "Luminous Shot",
+      "rarity": "Uncommon",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Damage",
+        "Utility",
+        "DevotionBlacklist"
+      ],
+      "aliases": [
+        "luminous",
+        "shot",
+        "increase",
+        "primary",
+        "damage"
+      ],
+      "effect": "Activating Secondary skill stores up to 5 charges (+1 per stack). Requires 3 charges for your Primary skill to fire lightning strikes, dealing 175% TOTAL damage (+50% per stack) each. Reduces Secondary skill cooldown by 20%.",
+      "iconPath": "/assets/catalog/increaseprimarydamage.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Luminous_Shot.png?61489b",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "TriggerEnemyDebuffs",
+      "name": "Noxious Thorn",
+      "rarity": "Uncommon",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "noxious",
+        "thorn",
+        "trigger",
+        "enemy",
+        "debuffs"
+      ],
+      "effect": "Gain 10% chance to bleed an enemy. On killing an enemy, transfer 33% of every debuff stack to 1 enemy (+1 per stack) within 20m (+5m per stack).",
+      "iconPath": "/assets/catalog/triggerenemydebuffs.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Noxious_Thorn.png?db89f6",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ExecuteLowHealthElite",
+      "name": "Old Guillotine",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "old",
+        "guillotine",
+        "execute",
+        "low",
+        "health",
+        "elite"
+      ],
+      "effect": "Instantly kill Elite monsters below 13% (+13% per stack) health.",
+      "iconPath": "/assets/catalog/executelowhealthelite.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Old_Guillotine.png?9a0dc3",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Phasing",
+      "name": "Old War Stealthkit",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "LowHealth",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "old",
+        "war",
+        "stealthkit",
+        "phasing"
+      ],
+      "effect": "Falling below 25% health causes you to gain 40% movement speed and invisibility for 5s. Recharges every 30 seconds (-50% per stack).",
+      "iconPath": "/assets/catalog/phasing.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Old_War_Stealthkit.png?d4b1f5",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ExtraStatsOnLevelUp",
+      "name": "Prayer Beads",
+      "rarity": "Uncommon",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Utility",
+        "PrinterBlacklist",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "prayer",
+        "beads",
+        "extra",
+        "stats",
+        "on",
+        "level",
+        "up"
+      ],
+      "effect": "Grows by gaining experience, storing 20% (+5% per stack) bonus stats (health, regeneration, and damage). On removal, gain all stored stats.",
+      "iconPath": "/assets/catalog/extrastatsonlevelup.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Prayer_Beads.png?742784",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "AttackSpeedOnCrit",
+      "name": "Predatory Instincts",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "predatory",
+        "instincts",
+        "attack",
+        "speed",
+        "on",
+        "crit"
+      ],
+      "effect": "Gain 5% critical chance. Critical strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed.",
+      "iconPath": "/assets/catalog/attackspeedoncrit.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Predatory_Instincts.png?5ffc89",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Thorns",
+      "name": "Razorwire",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "razorwire",
+        "thorns"
+      ],
+      "effect": "Getting hit causes you to explode in a burst of razors, dealing 160% damage. Hits up to 5 (+2 per stack) targets in a 25m (+10m per stack) radius",
+      "iconPath": "/assets/catalog/thorns.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Razorwire.png?c3eb61",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SprintOutOfCombat",
+      "name": "Red Whip",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "red",
+        "whip",
+        "sprint",
+        "out",
+        "of",
+        "combat"
+      ],
+      "effect": "Leaving combat boosts your movement speed by 30% (+30% per stack).",
+      "iconPath": "/assets/catalog/sprintoutofcombat.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Red_Whip.png?15bcd7",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "RegeneratingScrap",
+      "name": "Regenerating Scrap",
+      "rarity": "Uncommon",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "PrinterBlacklist",
+        "OnStageBeginEffect",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "regenerating",
+        "scrap"
+      ],
+      "effect": "Does nothing. Prioritized when used with Uncommon 3D Printers. At the start of each stage, it regenerates.",
+      "iconPath": "/assets/catalog/regeneratingscrap.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Regenerating_Scrap.png?aef9cd",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SprintArmor",
+      "name": "Rose Buckler",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "SprintRelated",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "rose",
+        "buckler",
+        "sprint",
+        "armor"
+      ],
+      "effect": "Increase armor by 30 (+30 per stack) while sprinting.",
+      "iconPath": "/assets/catalog/sprintarmor.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Rose_Buckler.png?ded7ff",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "IceRing",
+      "name": "Runald's Band",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "runald",
+        "s",
+        "band",
+        "ice",
+        "ring"
+      ],
+      "effect": "Hits that deal more than 400% damage also blasts enemies with a runic ice blast, slowing them by 80% for 3s (+3s per stack) and dealing 250% (+250% per stack) TOTAL damage. Recharges every 10 seconds.",
+      "iconPath": "/assets/catalog/icering.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Runald%27s_Band.png?642223",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "LowerPricedChests",
+      "name": "Sale Star",
+      "rarity": "Uncommon",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "PrinterBlacklist",
+        "Utility",
+        "TemporaryBlacklist"
+      ],
+      "aliases": [
+        "sale",
+        "star",
+        "lower",
+        "priced",
+        "chests"
+      ],
+      "effect": "Gain an extra item on the first chest opened per stage. {{Stack|Each additional Sale Star increases the chance of getting more items by 5%}}.",
+      "iconPath": "/assets/catalog/lowerpricedchests.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Sale_Star.png?a865b9",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "FreeChest",
+      "name": "Shipping Request Form",
+      "rarity": "Uncommon",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "OnStageBeginEffect"
+      ],
+      "aliases": [
+        "shipping",
+        "request",
+        "form",
+        "free",
+        "chest"
+      ],
+      "effect": "A delivery containing 2 items (79%/20%/1%) will appear in a random location on each stage. {{Stack|(Increases rarity chances of the items per stack).}}",
+      "iconPath": "/assets/catalog/freechest.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Shipping_Request_Form.png?852c58",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "PrimarySkillShuriken",
+      "name": "Shuriken",
+      "rarity": "Uncommon",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "shuriken",
+        "primary",
+        "skill"
+      ],
+      "effect": "Activating your Primary skill also throws a shuriken that deals 400% (+100% per stack) base damage. You can hold up to 3 (+1 per stack) shurikens which all reload over 10 seconds.",
+      "iconPath": "/assets/catalog/primaryskillshuriken.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Shuriken.png?7ea4c8",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "Squid",
+      "name": "Squid Polyp",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "InteractableRelated"
+      ],
+      "aliases": [
+        "squid",
+        "polyp"
+      ],
+      "effect": "Activating an interactable summons a Squid Turret that attacks nearby enemies at 100% (+100% per stack) attack speed. Lasts 30 seconds.",
+      "iconPath": "/assets/catalog/squid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Squid_Polyp.png?5ab3a7",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ChainLightning",
+      "name": "Ukulele",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "ukulele",
+        "ukelele",
+        "chain lightning",
+        "lightning"
+      ],
+      "effect": "25% chance to fire chain lightning for 80% TOTAL damage on up to 3 (+2 per stack) targets within 20m (+2m per stack).",
+      "iconPath": "/assets/catalog/chainlightning.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Ukulele.png?5c9db6",
+      "sourceStatus": "verified",
+      "priority": "core",
+      "priorityReason": "Efficient crowd clear for hit-heavy builds.",
+      "stackFormula": "Targets: 3 + 2 per additional stack."
+    },
+    {
+      "id": "TeleportOnLowHealth",
+      "name": "Unstable Transmitter",
+      "rarity": "Uncommon",
+      "scope": "Seekers of the Storm",
+      "categories": [
+        "Utility",
+        "LowHealth"
+      ],
+      "aliases": [
+        "unstable",
+        "transmitter",
+        "teleport",
+        "on",
+        "low",
+        "health"
+      ],
+      "effect": "Falling below 25% health gives you 60% of your maximum health as a temporary barrier. Gain a dimensional aura for 8s that bleeds and teleports away enemies. Enemies killed by the aura extend the duration by 1s. At the start of each stage, it regenerates.",
+      "iconPath": "/assets/catalog/teleportonlowhealth.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Unstable_Transmitter.png?40c0e7",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "EnergizedOnEquipmentUse",
+      "name": "War Horn",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "EquipmentRelated"
+      ],
+      "aliases": [
+        "war",
+        "horn",
+        "energized",
+        "on",
+        "equipment",
+        "use"
+      ],
+      "effect": "Activating your Equipment gives you +70% attack speed for 8s (+4s per stack).",
+      "iconPath": "/assets/catalog/energizedonequipmentuse.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/War_Horn.png?ee1b82",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "JumpBoost",
+      "name": "Wax Quail",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Utility",
+        "SprintRelated",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "wax",
+        "quail",
+        "jump",
+        "boost"
+      ],
+      "effect": "Jumping while sprinting boosts you forward by 10m (+10m per stack).",
+      "iconPath": "/assets/catalog/jumpboost.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Wax_Quail.png?527bfe",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ExplodeOnDeath",
+      "name": "Will-o'-the-wisp",
+      "rarity": "Uncommon",
+      "scope": "Base Game",
+      "categories": [
+        "Damage",
+        "OnKillEffect"
+      ],
+      "aliases": [
+        "will",
+        "o",
+        "the",
+        "wisp",
+        "explode",
+        "on",
+        "death"
+      ],
+      "effect": "On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.",
+      "iconPath": "/assets/catalog/explodeondeath.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Will-o%27-the-wisp.png?253825",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "CloverVoid",
+      "name": "Benthic Bloom",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "OnStageBeginEffect"
+      ],
+      "aliases": [
+        "benthic",
+        "bloom",
+        "clover",
+        "void"
+      ],
+      "effect": "Upgrades 3 (+3 per stack) random items to items of the next higher rarity at the start of each stage. Corrupts all 57 Leaf Clovers.",
+      "iconPath": "/assets/catalog/clovervoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Benthic_Bloom.png?f20ebf",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "TreasureCacheVoid",
+      "name": "Encrusted Key",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "OnStageBeginEffect"
+      ],
+      "aliases": [
+        "encrusted",
+        "key",
+        "treasure",
+        "cache",
+        "void"
+      ],
+      "effect": "A hidden cache containing an item (60%/30%/10%) will appear in a random location on each stage. Opening the cache consumes this item. Corrupts all Rusted Keys.",
+      "iconPath": "/assets/catalog/treasurecachevoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Encrusted_Key.png?8ed3c3",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "CritGlassesVoid",
+      "name": "Lost Seer's Lenses",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "lost",
+        "seer",
+        "s",
+        "lenses",
+        "crit",
+        "glasses",
+        "void"
+      ],
+      "effect": "Your attacks have a 0.5% (+0.5% per stack) chance to instantly kill a non-Boss enemy. Corrupts all Lens-Maker's Glasses.",
+      "iconPath": "/assets/catalog/critglassesvoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Lost_Seer%27s_Lenses.png?d6650b",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "EquipmentMagazineVoid",
+      "name": "Lysate Cell",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "lysate",
+        "cell",
+        "equipment",
+        "magazine",
+        "void"
+      ],
+      "effect": "Add +1 (+1 per stack) charge of your Special skill. Reduces Special skill cooldown by 33%. Corrupts all Fuel Cells.",
+      "iconPath": "/assets/catalog/equipmentmagazinevoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Lysate_Cell.png?ca0036",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BleedOnHitVoid",
+      "name": "Needletick",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "needletick",
+        "bleed",
+        "on",
+        "hit",
+        "void"
+      ],
+      "effect": "10% (+10% per stack) chance to collapse an enemy for 400% base damage. Corrupts all Tri-Tip Daggers.",
+      "iconPath": "/assets/catalog/bleedonhitvoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Needletick.png?da9c71",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "VoidMegaCrabItem",
+      "name": "Newly Hatched Zoea",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "TurretBlacklist",
+        "ExtractorUnitBlacklist"
+      ],
+      "aliases": [
+        "newly",
+        "hatched",
+        "zoea",
+        "void",
+        "mega",
+        "crab",
+        "item"
+      ],
+      "effect": "Every 60 (-50% per stack) seconds, gain a random Void ally. Can have up to 1 (+1 per stack) allies at a time. Corrupts all yellow items.",
+      "iconPath": "/assets/catalog/voidmegacrabitem.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Newly_Hatched_Zoea.png?fd60e3",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MissileVoid",
+      "name": "Plasma Shrimp",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "shrimp",
+        "plasma",
+        "void missile"
+      ],
+      "effect": "Gain a shield equal to 10% of your maximum health. While you have a shield, hitting an enemy fires a missile that deals 40% (+40% per stack) TOTAL damage. Corrupts all AtG Missile Mk. 1s.",
+      "iconPath": "/assets/catalog/missilevoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Plasma_Shrimp.png?cd9ca4",
+      "sourceStatus": "wiki-derived",
+      "priority": "useful",
+      "priorityReason": "Strong with shield support; consider whether corrupting AtG fits the build."
+    },
+    {
+      "id": "ExtraLifeVoid",
+      "name": "Pluripotent Larva",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "ExtractorUnitBlacklist"
+      ],
+      "aliases": [
+        "pluripotent",
+        "larva",
+        "extra",
+        "life",
+        "void"
+      ],
+      "effect": "Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability, and all of your items that can be corrupted will be. Corrupts all Dio's Best Friends.",
+      "iconPath": "/assets/catalog/extralifevoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Pluripotent_Larva.png?771373",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ChainLightningVoid",
+      "name": "Polylute",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "polylute",
+        "chain",
+        "lightning",
+        "void"
+      ],
+      "effect": "25% chance to fire lightning for 60% TOTAL damage up to 3 (+3 per stack) times. Corrupts all Ukuleles.",
+      "iconPath": "/assets/catalog/chainlightningvoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Polylute.png?bd8f5e",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "BearVoid",
+      "name": "Safer Spaces",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility",
+        "BrotherBlacklist"
+      ],
+      "aliases": [
+        "safer",
+        "spaces",
+        "bear",
+        "void"
+      ],
+      "effect": "Blocks incoming damage once. Recharges after 13.5 seconds (-10% per stack) Corrupts all Tougher Times.",
+      "iconPath": "/assets/catalog/bearvoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Safer_Spaces.png?81105f",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ElementalRingVoid",
+      "name": "Singularity Band",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage",
+        "Utility"
+      ],
+      "aliases": [
+        "singularity",
+        "band",
+        "elemental",
+        "ring",
+        "void"
+      ],
+      "effect": "Hits that deal more than 400% damage also fire a black hole that draws enemies within 15m into its center. Lasts 5 seconds before collapsing, dealing 100% (+100% per stack) TOTAL damage. Recharges every 20 seconds. Corrupts all Runald's and Kjaro's Bands.",
+      "iconPath": "/assets/catalog/elementalringvoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Singularity_Band.png?432e5f",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "SlowOnHitVoid",
+      "name": "Tentabauble",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Utility"
+      ],
+      "aliases": [
+        "tentabauble",
+        "slow",
+        "on",
+        "hit",
+        "void"
+      ],
+      "effect": "5% (+5% per stack) chance on hit to root enemies for 1s (+1s per stack). Corrupts all Chronobaubles.",
+      "iconPath": "/assets/catalog/slowonhitvoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Tentabauble.png?291343",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "ExplodeOnDeathVoid",
+      "name": "Voidsent Flame",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Damage"
+      ],
+      "aliases": [
+        "voidsent",
+        "flame",
+        "explode",
+        "on",
+        "death",
+        "void"
+      ],
+      "effect": "Upon hitting an enemy at full health, spawn a lava pillar in a 12m (+2.4m per stack) radius for 260% (+156% per stack) base damage. Corrupts all Will-o'-the-wisps.",
+      "iconPath": "/assets/catalog/explodeondeathvoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Voidsent_Flame.png?f2b375",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    },
+    {
+      "id": "MushroomVoid",
+      "name": "Weeping Fungus",
+      "rarity": "Void",
+      "scope": "Survivors of the Void",
+      "categories": [
+        "Healing",
+        "SprintRelated",
+        "MobilityRelated"
+      ],
+      "aliases": [
+        "weeping",
+        "fungus",
+        "mushroom",
+        "void"
+      ],
+      "effect": "Heals for 2% (+2% per stack) of your health every second while sprinting. Corrupts all Bustling Fungi.",
+      "iconPath": "/assets/catalog/mushroomvoid.png",
+      "sourceUrl": "https://riskofrain2.wiki.gg/images/Weeping_Fungus.png?c85bb9",
+      "sourceStatus": "verified",
+      "priority": "useful",
+      "priorityReason": "Verified item data. Inspect its effect and fit before taking it."
+    }
+  ]
+}
