@@ -39,6 +39,15 @@ test("ships equipment, survivor, and build-aware Chef reference content", async 
   assert.match(source, /iconPath: `\/assets\/equipment\/\$\{id\}\.png`/);
 });
 
+test("ships the complete source-labeled Expo glossary for web reference", async () => {
+  const source = await readFile(new URL("../src/data/glossary.ts", import.meta.url), "utf8");
+  assert.match(source, /export const allGlossaryEntries/);
+  assert.match(source, /Risk of Rain 2 Wiki/);
+  assert.match(source, /wiki-derived/);
+  assert.match(source, /Proc Coefficient/);
+  assert.match(source, /Artifact of Command/);
+});
+
 test("ships the in-run Build decision flow", async () => {
   const source = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
   assert.match(source, /RUN READINESS/);
